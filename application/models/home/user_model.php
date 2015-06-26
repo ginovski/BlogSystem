@@ -9,4 +9,18 @@ class User_model extends CI_Model{
 
         return $query->result_array();
     }
+
+    public function getUserProfessionalSkills(){
+        $this->db->order_by('percent', 'DESC');
+        $query = $this->db->get('professional_skills');
+
+        return $query->result_array();
+    }
+
+    public function getUserPersonalSkills(){
+        $this->db->order_by('percent', 'DESC');
+        $query = $this->db->get('personal_skills');
+
+        return $query->result_array();
+    }
 }
