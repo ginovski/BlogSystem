@@ -3,7 +3,6 @@
     <div id="footer">
         <div class="copyright">
             <p class="moto">“<?php echo $user_info['quote']?>” - <em><?php echo $user_info['quote_author']?></em></p>
-            <p>Copyright © 2015 ProDevity</p>
         </div>
 
         <hr>
