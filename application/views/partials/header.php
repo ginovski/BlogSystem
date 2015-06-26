@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Name - Personal Blog</title>
+    <title><?php echo $user_info['fullname']?> - Personal Blog</title>
     <link rel="stylesheet" href="<?php echo base_url().'assets/css/bootstrap.min.css'?>" >
     <link rel="stylesheet" href="<?php echo base_url().'assets/css/font-awesome.min.css'?>" >
     <link rel="stylesheet" href="<?php echo base_url().'assets/css/style.css'?>" >
@@ -26,7 +26,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Name <small>Moto or profession</small></a>
+                <a class="navbar-brand" href="#"><?php echo $user_info['fullname']?> <small><?php echo $user_info['profession']?></small></a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
