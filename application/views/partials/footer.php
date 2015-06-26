@@ -2,7 +2,7 @@
 <footer>
     <div id="footer">
         <div class="copyright">
-            <p class="personal-blog-desc">This is a personal blog with a clean and flat design</p>
+            <p class="moto">“<?php echo $user_info['quote']?>” - <em><?php echo $user_info['quote_author']?></em></p>
             <p>Copyright © 2015 ProDevity</p>
         </div>
 
@@ -23,10 +23,13 @@
                     <li><a class="google-plus" href="<?php echo $user_info['googleplus']?>"><i class="fa fa-google-plus"></i></a></li>
                 <?php endif;?>
                 <?php if(!is_null($user_info['linkedin'])):?>
-                    <li><a class="flickr" href="<?php echo $user_info['linkedin']?>"><i class="fa fa-flickr"></i></a></li>
+                    <li><a class="linkedin" href="<?php echo $user_info['linkedin']?>"><i class="fa fa-linkedin"></i></a></li>
                 <?php endif;?>
                 <?php if(!is_null($user_info['youtube'])):?>
                     <li><a class="youtube" href="<?php echo $user_info['youtube']?>"><i class="fa fa-youtube-play"></i></a></li>
+                <?php endif;?>
+                <?php if(!is_null($user_info['flickr'])):?>
+                    <li><a class="flickr" href="<?php echo $user_info['flickr']?>"><i class="fa fa-flickr"></i></a></li>
                 <?php endif;?>
             </ul>
         </div>
