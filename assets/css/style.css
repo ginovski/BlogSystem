@@ -1,0 +1,782 @@
+.flat-button {
+  display: inline-block;
+  padding: 20px;
+  background-color: #54c0b0;
+  border-bottom: 4px solid #18ae9a;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.875em;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.flat-button:hover,
+.flat-button:focus,
+.flat-button:active {
+  background-color: #18ae9a;
+}
+.flat-paging {
+  display: inline-block;
+  padding: 5px 10px;
+  outline: 0;
+  background-color: #54c0b0;
+  border-bottom: 4px solid #18ae9a;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.875em;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.flat-paging:hover,
+.flat-paging:focus,
+.flat-paging:active {
+  background-color: #18ae9a;
+  outline: 0;
+}
+.transition {
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+@font-face {
+  font-family: 'jaapokki_enchanceregular';
+  src: url('assets/css/type/jaapokkienchance-regular-webfont.eot');
+  src: url('assets/css/type/jaapokkienchance-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('assets/css/type/jaapokkienchance-regular-webfont.woff2') format('woff2'),
+  url('assets/css/type/jaapokkienchance-regular-webfont.woff') format('woff'),
+  url('assets/css/type/jaapokkienchance-regular-webfont.ttf') format('truetype'),
+  url('assets/css/type/jaapokkienchance-regular-webfont.svg#jaapokki_enchanceregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'jaapokkiregular';
+  src: url('assets/css/type/jaapokki-regular-webfont.eot');
+  src: url('assets/css/type/jaapokki-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('assets/css/type/jaapokki-regular-webfont.woff2') format('woff2'),
+  url('assets/css/type/jaapokki-regular-webfont.woff') format('woff'),
+  url('assets/css/type/jaapokki-regular-webfont.ttf') format('truetype'),
+  url('assets/css/type/jaapokki-regular-webfont.svg#jaapokkiregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+html,
+body {
+  background-color: #f2f2f2;
+  font-family: 'Century Gothic';
+  font-size: 16px;
+}
+/* HEADER
+   ================================================== */
+header {
+  width: 100%;
+}
+header nav.navbar {
+  width: 100%;
+  height: 100px;
+  border: 0;
+  border-radius: 0;
+  background-color: #54c0b0;
+}
+header nav.navbar div.container-fluid {
+  width: 72%;
+  height: 100%;
+}
+header nav.navbar div.container-fluid div.navbar-header {
+  font-family: 'jaapokki_enchanceregular';
+}
+header nav.navbar div.container-fluid div.navbar-header button.navbar-toggle {
+  border: 0;
+  border-radius: 0;
+  margin: 30px 15px;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+header nav.navbar div.container-fluid div.navbar-header button.navbar-toggle span {
+  border-radius: 0;
+  background-color: #ffffff;
+}
+header nav.navbar div.container-fluid div.navbar-header button.navbar-toggle:hover,
+header nav.navbar div.container-fluid div.navbar-header button.navbar-toggle:focus,
+header nav.navbar div.container-fluid div.navbar-header button.navbar-toggle:active {
+  background-color: #18ae9a;
+}
+header nav.navbar div.container-fluid div.navbar-header a.navbar-brand {
+  color: #ffffff;
+  font-size: 1.500em;
+  text-transform: uppercase;
+  height: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+header nav.navbar div.container-fluid div.navbar-header a.navbar-brand small {
+  display: block;
+  font-size: 0.650em;
+  font-family: 'Century Gothic';
+  text-transform: capitalize;
+}
+header nav.navbar div.navbar-collapse ul.navbar-nav .nav-link a {
+  padding: 40px 20px;
+  color: #ffffff !important;
+  font-family: 'jaapokkiregular';
+  text-transform: uppercase;
+  background-color: transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+header nav.navbar div.navbar-collapse ul.navbar-nav .nav-link a:hover,
+header nav.navbar div.navbar-collapse ul.navbar-nav .nav-link a:focus,
+header nav.navbar div.navbar-collapse ul.navbar-nav .nav-link a:active {
+  background-color: #18ae9a;
+}
+header nav.navbar div.navbar-collapse ul.navbar-nav .active a {
+  background-color: #18ae9a;
+}
+@media all and (max-width: 74em) {
+  header nav.navbar div.container-fluid {
+    width: 100%;
+  }
+  header nav.navbar div.container-fluid div.navbar-header a.navbar-brand {
+    font-size: 1em;
+    padding: 30px 15px;
+  }
+  header nav.navbar div.container-fluid div.navbar-collapse {
+    position: relative;
+    z-index: 1;
+  }
+  header nav.navbar div.container-fluid div.navbar-collapse ul.navbar-nav li a {
+    font-size: 0.9em;
+  }
+}
+@media all and (max-width: 48em) {
+  header nav.navbar div.container-fluid div.navbar-collapse {
+    border: 0;
+    background-color: #313536;
+  }
+  header nav.navbar div.container-fluid div.navbar-collapse ul.navbar-nav {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  header nav.navbar div.container-fluid div.navbar-collapse ul.navbar-nav li a {
+    padding: 15px;
+    color: #818787 !important;
+  }
+  header nav.navbar div.container-fluid div.navbar-collapse ul.navbar-nav li a:hover,
+  header nav.navbar div.container-fluid div.navbar-collapse ul.navbar-nav li a:focus,
+  header nav.navbar div.container-fluid div.navbar-collapse ul.navbar-nav li a:active {
+    color: #ffffff !important;
+  }
+  header nav.navbar div.container-fluid div.navbar-collapse ul.navbar-nav .active a {
+    color: #ffffff !important;
+  }
+}
+/* MAIN CONTENT
+   ================================================== */
+div#wrapper {
+  width: 100%;
+}
+div#wrapper div.like {
+  display: inline-block;
+}
+div#wrapper div.like a {
+  color: #c1bfbf;
+}
+div#wrapper div.like a:hover,
+div#wrapper div.like a:active,
+div#wrapper div.like a:focus {
+  color: #54c0b0;
+  text-decoration: none;
+}
+div#wrapper div.prev-next {
+  padding: 0 0 20px 0;
+}
+div#wrapper div.prev-next a {
+  color: #54c0b0;
+}
+div#wrapper div#main-content {
+  width: 72%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+div#wrapper div#main-content div.content-body {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+div#wrapper div#main-content div.content-body div.image {
+  width: 100%;
+}
+div#wrapper div#main-content div.content-body div.image img {
+  width: 100%;
+}
+div#wrapper div#main-content div.content-body div.main-body {
+  width: 92%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 45px 75px;
+}
+div#wrapper div#main-content div.content-body div.main-body div.title {
+  padding-bottom: 25px;
+}
+div#wrapper div#main-content div.content-body div.main-body div.title h2 {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #3c3c3c;
+}
+div#wrapper div#main-content div.content-body div.main-body div.date-comments {
+  font-size: 1.063em;
+  color: #c1bfbf;
+  padding-bottom: 25px;
+}
+div#wrapper div#main-content div.content-body div.main-body div.date-comments div.date {
+  display: inline-block;
+  padding: 0 15px;
+}
+div#wrapper div#main-content div.content-body div.main-body div.date-comments div.comments {
+  display: inline-block;
+  padding: 0 15px;
+}
+div#wrapper div#main-content div.content-body div.main-body div.date-comments div.comments p a:hover,
+div#wrapper div#main-content div.content-body div.main-body div.date-comments div.comments p a:focus,
+div#wrapper div#main-content div.content-body div.main-body div.date-comments div.comments p a:active {
+  text-decoration: none;
+}
+div#wrapper div#main-content div.content-body div.main-body div.post-text p {
+  padding-bottom: 10px;
+  font-size: 1em;
+}
+div#wrapper div#main-content div.content-body div.main-body div.post-text p.light-text {
+  color: #c1bfbf;
+}
+div#wrapper div#main-content div.content-body div.main-body div.post-text p.dark-text {
+  color: #636467;
+}
+div#wrapper div#main-content div.content-body div.main-body div.second-post div.image {
+  width: 40%;
+  padding: 0 20px 20px 0;
+  display: inline-block;
+  float: left;
+}
+div#wrapper div#main-content div.content-body div.main-body div.second-post div.post-text {
+  text-align: left;
+}
+div#wrapper div#main-content div.content-body div.main-body div.read-more a {
+  display: inline-block;
+  padding: 20px;
+  background-color: #54c0b0;
+  border-bottom: 4px solid #18ae9a;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.875em;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+div#wrapper div#main-content div.content-body div.main-body div.read-more a:hover,
+div#wrapper div#main-content div.content-body div.main-body div.read-more a:focus,
+div#wrapper div#main-content div.content-body div.main-body div.read-more a:active {
+  background-color: #18ae9a;
+}
+div#wrapper div#main-content div#paging {
+  width: 92%;
+  margin: 0 auto;
+  padding-bottom: 45px;
+}
+div#wrapper div#main-content div#paging div.left-arrow {
+  padding-left: 0;
+  text-align: left;
+}
+div#wrapper div#main-content div#paging div.left-arrow a {
+  margin-bottom: 10px;
+  display: inline-block;
+  padding: 5px 10px;
+  outline: 0;
+  background-color: #54c0b0;
+  border-bottom: 4px solid #18ae9a;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.875em;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+div#wrapper div#main-content div#paging div.left-arrow a:hover,
+div#wrapper div#main-content div#paging div.left-arrow a:focus,
+div#wrapper div#main-content div#paging div.left-arrow a:active {
+  background-color: #18ae9a;
+  outline: 0;
+}
+div#wrapper div#main-content div#paging div.pages {
+  padding: 0;
+}
+div#wrapper div#main-content div#paging div.pages div.pages-numbers ul {
+  text-align: center;
+}
+div#wrapper div#main-content div#paging div.pages div.pages-numbers ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+div#wrapper div#main-content div#paging div.pages div.pages-numbers ul li a {
+  margin-bottom: 10px;
+  display: inline-block;
+  padding: 5px 10px;
+  outline: 0;
+  background-color: #54c0b0;
+  border-bottom: 4px solid #18ae9a;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.875em;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+div#wrapper div#main-content div#paging div.pages div.pages-numbers ul li a:hover,
+div#wrapper div#main-content div#paging div.pages div.pages-numbers ul li a:focus,
+div#wrapper div#main-content div#paging div.pages div.pages-numbers ul li a:active {
+  background-color: #18ae9a;
+  outline: 0;
+}
+div#wrapper div#main-content div#paging div.right-arrow {
+  padding-right: 0;
+  text-align: right;
+}
+div#wrapper div#main-content div#paging div.right-arrow a {
+  margin-bottom: 10px;
+  display: inline-block;
+  padding: 5px 10px;
+  outline: 0;
+  background-color: #54c0b0;
+  border-bottom: 4px solid #18ae9a;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.875em;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+div#wrapper div#main-content div#paging div.right-arrow a:hover,
+div#wrapper div#main-content div#paging div.right-arrow a:focus,
+div#wrapper div#main-content div#paging div.right-arrow a:active {
+  background-color: #18ae9a;
+  outline: 0;
+}
+@media all and (max-width: 43.75em) {
+  div#wrapper div#main-content {
+    width: 90%;
+    padding: 50px 0;
+  }
+  div#wrapper div#main-content div.content-body div.main-body {
+    padding: 25px;
+    font-size: 0.8em;
+  }
+  div#wrapper div#main-content div.content-body div.main-body div.read-more a {
+    padding: 15px;
+  }
+  div#wrapper div#main-content div.content-body div.main-body div.second-post div.image {
+    width: 90%;
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
+  div#wrapper div#main-content div#paging .left-arrow a {
+    padding: 5px 10px;
+  }
+}
+/* FOOTER
+   ================================================== */
+footer {
+  width: 100%;
+}
+footer div#footer {
+  width: 72%;
+  margin: 0 auto;
+}
+footer div#footer div.copyright {
+  width: 92%;
+  padding: 35px 0 45px 0;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1em;
+  color: #c1bfbf;
+  border-top: 2px solid #d1d2d4;
+}
+footer div#footer div.copyright p.personal-blog-desc {
+  padding-bottom: 45px;
+}
+footer div#footer hr {
+  width: 20%;
+  height: 2px;
+  margin: 0 auto;
+  background-color: #d1d2d4;
+}
+footer div#footer div.social-media {
+  padding: 45px 0 35px 0;
+}
+footer div#footer div.social-media ul {
+  list-style-type: none;
+  text-align: center;
+}
+footer div#footer div.social-media ul li {
+  display: inline-block;
+}
+footer div#footer div.social-media ul li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #ffffff;
+  background-color: #dadada;
+  border-bottom: 4px solid #c4c5c8;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+footer div#footer div.social-media ul li a i {
+  padding: 12px 0;
+}
+footer div#footer div.social-media ul li .facebook:hover,
+footer div#footer div.social-media ul li .facebook:active,
+footer div#footer div.social-media ul li .facebook:focus {
+  background-color: #4565af;
+  border-color: #37508a;
+}
+footer div#footer div.social-media ul li .twitter:hover,
+footer div#footer div.social-media ul li .twitter:active,
+footer div#footer div.social-media ul li .twitter:focus {
+  background-color: #9fdae1;
+  border-color: #78cbd5;
+}
+footer div#footer div.social-media ul li .skype:hover,
+footer div#footer div.social-media ul li .skype:active,
+footer div#footer div.social-media ul li .skype:focus {
+  background-color: #18bef0;
+  border-color: #0d9dc8;
+}
+footer div#footer div.social-media ul li .google-plus:hover,
+footer div#footer div.social-media ul li .google-plus:active,
+footer div#footer div.social-media ul li .google-plus:focus {
+  background-color: #d42926;
+  border-color: #a9211e;
+}
+footer div#footer div.social-media ul li .flickr:hover,
+footer div#footer div.social-media ul li .flickr:active,
+footer div#footer div.social-media ul li .flickr:focus {
+  background-color: #ed1e83;
+  border-color: #c8106a;
+}
+footer div#footer div.social-media ul li .youtube:hover,
+footer div#footer div.social-media ul li .youtube:active,
+footer div#footer div.social-media ul li .youtube:focus {
+  background-color: #df3431;
+  border-color: #bf211e;
+}
+@media all and (max-width: 43.75em) {
+  footer div#footer {
+    width: 90%;
+  }
+}
+/* ARTICLE
+   ================================================== */
+div#wrapper div#main-content div#comments div.comments-section p.no-comments {
+  font-size: 1.375em;
+  color: #c1bfbf;
+}
+div#wrapper div#main-content div#comments div.comments-section p.no-comments a {
+  color: #54c0b0;
+  text-decoration: underline;
+  font-weight: bold;
+}
+div#wrapper div#main-content div#comments div.comments-section div.comment {
+  display: inline-block;
+  width: 100%;
+}
+div#wrapper div#main-content div#comments div.comments-section div.comment div.user-data {
+  display: inline-block;
+}
+div#wrapper div#main-content div#comments div.comments-section div.comment div.user-data div.col-sm-3 {
+  display: inline-block;
+  text-align: right;
+  padding: 0;
+}
+div#wrapper div#main-content div#comments div.comments-section div.comment div.user-data div.col-sm-3 div.image {
+  width: 100%;
+  display: inline-block;
+  float: left;
+}
+div#wrapper div#main-content div#comments div.comments-section div.comment div.user-data div.col-sm-8 {
+  display: inline-block;
+}
+div#wrapper div#main-content div#comments div.comments-section div.comment div.user-data div.col-sm-8 p.by {
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  color: #636467;
+  margin: 0;
+}
+div#wrapper div#main-content div#comments div.comments-section div.comment div.user-data div.col-sm-8 small.when {
+  display: inline-block;
+  font-size: 0.8em;
+  color: #c1bfbf;
+}
+div#wrapper div#main-content div#comments div.comments-section div.comment div.user-data div.col-sm-8 a {
+  display: inline-block;
+  padding: 20px;
+  background-color: #54c0b0;
+  border-bottom: 4px solid #18ae9a;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.875em;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  padding: 5px 10px;
+}
+div#wrapper div#main-content div#comments div.comments-section div.comment div.user-data div.col-sm-8 a:hover,
+div#wrapper div#main-content div#comments div.comments-section div.comment div.user-data div.col-sm-8 a:focus,
+div#wrapper div#main-content div#comments div.comments-section div.comment div.user-data div.col-sm-8 a:active {
+  background-color: #18ae9a;
+}
+div#wrapper div#main-content div#comments div.comments-section div.comment div.user-data div.user-comment {
+  padding: 10px 15px;
+  color: #c1bfbf;
+}
+div#wrapper div#main-content div#comments div.comments-section div.comment div.reply div.user-data {
+  padding-left: 8%;
+}
+div#wrapper div#main-content div#comments div.comments-section div.comment div.reply div.reply-reply div.user-data {
+  padding-left: 16%;
+}
+/* PORTFOLIO
+   ================================================== */
+div#wrapper div#main-content div.portfolio div.main-body div.title {
+  border-bottom: 2px solid #d1d2d4;
+  padding-bottom: 25px;
+}
+div#wrapper div#main-content div.portfolio div.main-body div.title h2 {
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: left;
+  color: #54c0b0;
+}
+div#wrapper div#main-content div.portfolio div.main-body div.grid-images {
+  padding: 20px 0;
+}
+div#wrapper div#main-content div.portfolio div.main-body div.grid-images div.col-sm-4 {
+  margin-bottom: 15px;
+}
+div#wrapper div#main-content div.portfolio div.main-body div.grid-images div.col-sm-4 div.square {
+  width: 100%;
+  height: 100%;
+  box-shadow: none;
+  border: 0;
+}
+div#wrapper div#main-content div.portfolio div.main-body div.grid-images div.col-sm-4 a h3 {
+  background-color: transparent;
+  font-size: 0.9em;
+}
+div#wrapper div#main-content div.portfolio div.main-body div.grid-images div.col-sm-4 a img {
+  width: 100%;
+}
+/* NEWSLETTER
+   ================================================== */
+div#wrapper div#main-content div.newsletter div.main-body {
+  text-align: left;
+}
+div#wrapper div#main-content div.newsletter div.main-body .input {
+  width: 100%;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-radius: 0;
+  background-color: #f2f2f2;
+  color: #a4a2a2;
+  font-size: 0.8em;
+}
+div#wrapper div#main-content div.newsletter div.main-body .submit {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  margin: 0 auto;
+  display: inline-block;
+  padding: 20px;
+  background-color: #54c0b0;
+  border-bottom: 4px solid #18ae9a;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.875em;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+div#wrapper div#main-content div.newsletter div.main-body .submit:hover,
+div#wrapper div#main-content div.newsletter div.main-body .submit:focus,
+div#wrapper div#main-content div.newsletter div.main-body .submit:active {
+  background-color: #18ae9a;
+}
+/* ABOUT
+   ================================================== */
+div#wrapper div#main-content div.about div.main-body {
+  text-align: left;
+  word-break: break-all;
+}
+div#wrapper div#main-content div.about div.main-body div.name {
+  border-bottom: 2px solid #d1d2d4;
+  padding-bottom: 25px;
+}
+div#wrapper div#main-content div.about div.main-body div.name h2 {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #54c0b0;
+}
+div#wrapper div#main-content div.about div.main-body div.about-text {
+  padding: 45px 0 20px 0;
+}
+div#wrapper div#main-content div.about div.main-body div#skills div.skills-title {
+  border-bottom: 2px solid #d1d2d4;
+  padding-bottom: 25px;
+}
+div#wrapper div#main-content div.about div.main-body div#skills div.skills-title h2 {
+  font-size: 1.35em;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #54c0b0;
+}
+div#wrapper div#main-content div.about div.main-body div#skills div.skills {
+  padding: 15px 10px;
+}
+div#wrapper div#main-content div.about div.main-body div#skills div.skills small {
+  font-size: 1.125em;
+  font-weight: bold;
+  color: #636467;
+  text-align: left;
+}
+div#wrapper div#main-content div.about div.main-body div#skills div.skills div.professional,
+div#wrapper div#main-content div.about div.main-body div#skills div.skills div.personal {
+  margin-bottom: 15px;
+}
+div#wrapper div#main-content div.about div.main-body div#skills div.skills div.professional div.col-sm-12,
+div#wrapper div#main-content div.about div.main-body div#skills div.skills div.personal div.col-sm-12 {
+  padding: 0;
+}
+div#wrapper div#main-content div.about div.main-body div#skills div.skills div.professional div.col-sm-12 div.col-sm-6.skill-title,
+div#wrapper div#main-content div.about div.main-body div#skills div.skills div.personal div.col-sm-12 div.col-sm-6.skill-title {
+  margin-bottom: 10px;
+}
+div#wrapper div#main-content div.about div.main-body div#skills div.skills div.professional div.col-sm-12 div.col-sm-6.skill-title small,
+div#wrapper div#main-content div.about div.main-body div#skills div.skills div.personal div.col-sm-12 div.col-sm-6.skill-title small {
+  font-size: 1em;
+  font-weight: normal;
+}
+div#wrapper div#main-content div.about div.main-body div#skills div.skills div.professional div.col-sm-12 div.col-sm-6,
+div#wrapper div#main-content div.about div.main-body div#skills div.skills div.personal div.col-sm-12 div.col-sm-6 {
+  padding: 5px;
+}
+div#wrapper div#main-content div.about div.main-body div#skills div.skills div.professional div.col-sm-12 div.col-sm-6 div.progress-bar,
+div#wrapper div#main-content div.about div.main-body div#skills div.skills div.personal div.col-sm-12 div.col-sm-6 div.progress-bar {
+  width: 100%;
+  height: 15px;
+  border: 0;
+  box-shadow: none;
+  background-color: #f2f2f2;
+}
+div#wrapper div#main-content div.about div.main-body div#skills div.skills div.professional div.col-sm-12 div.col-sm-6 div.progress-bar div.green-bar,
+div#wrapper div#main-content div.about div.main-body div#skills div.skills div.personal div.col-sm-12 div.col-sm-6 div.progress-bar div.green-bar {
+  height: 15px;
+  display: inline-block;
+  float: left;
+  background-color: #54c0b0;
+}
+/* CONTACT
+   ================================================== */
+div#wrapper div#main-content div.main-body {
+  text-align: left;
+}
+div#wrapper div#main-content div.main-body .input {
+  width: 100%;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-radius: 0;
+  background-color: #f2f2f2;
+  color: #a4a2a2;
+  font-size: 0.8em;
+}
+div#wrapper div#main-content div.main-body .textarea {
+  max-width: 100%;
+  height: 200px;
+  text-transform: capitalize;
+}
+div#wrapper div#main-content div.main-body .submit {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  margin: 0 auto;
+  display: inline-block;
+  padding: 20px;
+  background-color: #54c0b0;
+  border-bottom: 4px solid #18ae9a;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.875em;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+div#wrapper div#main-content div.main-body .submit:hover,
+div#wrapper div#main-content div.main-body .submit:focus,
+div#wrapper div#main-content div.main-body .submit:active {
+  background-color: #18ae9a;
+}
