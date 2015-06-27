@@ -10,4 +10,10 @@ class Post_model extends CI_Model{
 
         return $query->result_array();
     }
+
+    public function getPostById($id){
+        $query = $this->db->get_where('posts', array('id' => $id));
+
+        return $query->result_array();
+    }
 }

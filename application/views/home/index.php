@@ -40,7 +40,7 @@
                     </div>
 
                     <div class="read-more">
-                        <a href="#">read more</a>
+                        <a href="<?php echo base_url(). 'index.php/posts/details/'.$post['id']?>">read more</a>
                     </div>
                 </div>
             <?php endforeach;?>
