@@ -2,7 +2,7 @@
     <div class="articles">
         <div class="content-body article image-article">
             <div class="image">
-                <img src="assets/images/testImage.jpg" alt="Test Image">
+                <img src="<?php echo base_url(). 'assets/images/testImage.jpg'?>" alt="Test Image">
             </div>
 
             <div class="main-body">
