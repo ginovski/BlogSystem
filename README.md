@@ -6,7 +6,7 @@
     <li>Make Post details view</li>
     <li>Make Post like</li>
     <li>Make Post comments</li>
-    <li>Make contact page</li>
+    <li><strike>Make contact page</strike></li>
     <li>Make newsletter</li>
     <li>Extend About page
         <ul>
