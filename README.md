@@ -6,6 +6,9 @@
     <li>Make Post details view</li>
     <li>Make Post like</li>
     <li>Make Post comments</li>
+	<li>Connect posts with categories</li>
+	<li>Make post categories show on the home page</li>
+	<li>Make post tags (Not final?)</li>
     <li><strike>Make contact page</strike></li>
     <li>Make contact form to send an email</li>
     <li><strike>Make newsletter page</strike></li>
