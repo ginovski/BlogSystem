@@ -1,5 +1,43 @@
 <div id="main-content">
     <div class="articles">
+        <div id="side" class="pull-right">
+            <div class="content-body">
+                <div class="main-body">
+                    <div class="categories">
+                        <div class="title text-left">
+                            <h2>Categories</h2>
+                        </div>
+
+                        <ul class="list-categories">
+                            <li>[Category] (times found)</li>
+                            <li>[Category] (times found)</li>
+                            <li>[Category] (times found)</li>
+                            <li>[Category] (times found)</li>
+                            <li>[Category] (times found)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-body">
+                <div class="main-body">
+                    <div class="tags">
+                        <div class="title text-left">
+                            <h2>Tags</h2>
+                        </div>
+
+                        <ul class="list-tags">
+                            <li><a href="">[#Tag]</a></li>
+                            <li><a href="">[#Tag]</a></li>
+                            <li><a href="">[#Tag]</a></li>
+                            <li><a href="">[#Tag]</a></li>
+                            <li><a href="">[#Tag]</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <?php foreach($posts as $post):?>
         <div class="content-body article image-article">
             <div class="main-body">

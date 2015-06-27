@@ -171,7 +171,7 @@ header nav.navbar div.navbar-collapse ul.navbar-nav .nav-link a:active {
 header nav.navbar div.navbar-collapse ul.navbar-nav .active a {
   background-color: #18ae9a;
 }
-@media all and (max-width: 74em) {
+@media all and (max-width: 81em) {
   header nav.navbar div.container-fluid {
     width: 100%;
   }
@@ -187,7 +187,7 @@ header nav.navbar div.navbar-collapse ul.navbar-nav .active a {
     font-size: 0.9em;
   }
 }
-@media all and (max-width: 48em) {
+@media all and (max-width: 50em) {
   header nav.navbar div.container-fluid div.navbar-collapse {
     border: 0;
     background-color: #313536;
@@ -233,18 +233,70 @@ div#wrapper div.prev-next a {
   color: #54c0b0;
 }
 div#wrapper div#main-content {
-  max-width: 960px;
+  width: 90%;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 25px;
+}
+div#wrapper div#main-content div#side {
+  width: 25%;
+  margin-left: 5%;
+  display: inline-block;
+}
+div#wrapper div#main-content div#side div.content-body {
+  margin: 0;
+  float: right;
+  width: 100%;
+  padding-bottom: 50px;
+}
+div#wrapper div#main-content div#side div.content-body div.main-body {
+  padding: 45px 40px;
+  display: inline-block;
+}
+div#wrapper div#main-content div#side div.content-body div.main-body div.title {
+  text-align: left;
+  border-bottom: 2px solid #d1d2d4;
+  padding-bottom: 15px;
+}
+div#wrapper div#main-content div#side div.content-body div.main-body ul.list-categories {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0;
+  float: left;
+  text-align: left;
+}
+div#wrapper div#main-content div#side div.content-body div.main-body ul.list-categories li {
+  padding: 5px 0;
+}
+div#wrapper div#main-content div#side div.content-body div.main-body ul.list-tags {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0;
+  float: left;
+  text-align: left;
+}
+div#wrapper div#main-content div#side div.content-body div.main-body ul.list-tags li {
+  display: inline-block;
+  padding: 2px 0;
+}
+div#wrapper div#main-content div#side div.content-body div.main-body ul.list-tags li a {
+  display: inline-block;
+  padding: 5px;
+  background-color: #f2f2f2;
+}
+@media all and (max-width: 50em) {
+  div#wrapper div#main-content div#side {
+    display: none;
+  }
+  div#wrapper div#main-content div.content-body {
+    margin: 0 auto;
+  }
 }
 div#wrapper div#main-content div.content-body {
-  width: 100%;
-  margin: 0 auto;
+  width: 70%;
   padding-bottom: 100px;
 }
 div#wrapper div#main-content div.content-body div.main-body {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
   text-align: center;
   background-color: #ffffff;
   padding: 45px 75px;
@@ -656,6 +708,9 @@ div#wrapper div#main-content div.portfolio div.main-body div.grid-images div.col
 }
 /* NEWSLETTER
    ================================================== */
+div#wrapper div#main-content div.newsletter {
+  margin: 0 auto;
+}
 div#wrapper div#main-content div.newsletter div.main-body {
   text-align: left;
 }
@@ -696,6 +751,9 @@ div#wrapper div#main-content div.newsletter div.main-body .submit:active {
 }
 /* ABOUT
    ================================================== */
+div#wrapper div#main-content div.about {
+  margin: 0 auto;
+}
 div#wrapper div#main-content div.about div.main-body {
   text-align: left;
   word-break: break-all;
@@ -769,15 +827,18 @@ div#wrapper div#main-content div.about div.main-body div#skills div.skills div.p
 }
 /* CONTACT
    ================================================== */
-div#wrapper div#main-content div.main-body {
+div#wrapper div#main-content div.contact {
+  margin: 0 auto;
+}
+div#wrapper div#main-content div.contact div.main-body {
   text-align: left;
 }
-div#wrapper div#main-content div.main-body .name {
+div#wrapper div#main-content div.contact div.main-body .name {
   text-align: left;
   border-bottom: 2px solid #d1d2d4;
   padding-bottom: 25px;
 }
-div#wrapper div#main-content div.main-body .input {
+div#wrapper div#main-content div.contact div.main-body .input {
   width: 100%;
   padding: 15px 20px;
   margin-bottom: 20px;
@@ -787,12 +848,12 @@ div#wrapper div#main-content div.main-body .input {
   color: #a4a2a2;
   font-size: 0.8em;
 }
-div#wrapper div#main-content div.main-body .textarea {
+div#wrapper div#main-content div.contact div.main-body .textarea {
   max-width: 100%;
   height: 200px;
   text-transform: capitalize;
 }
-div#wrapper div#main-content div.main-body .submit {
+div#wrapper div#main-content div.contact div.main-body .submit {
   border-top: 0;
   border-left: 0;
   border-right: 0;
@@ -812,8 +873,8 @@ div#wrapper div#main-content div.main-body .submit {
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
-div#wrapper div#main-content div.main-body .submit:hover,
-div#wrapper div#main-content div.main-body .submit:focus,
-div#wrapper div#main-content div.main-body .submit:active {
+div#wrapper div#main-content div.contact div.main-body .submit:hover,
+div#wrapper div#main-content div.contact div.main-body .submit:focus,
+div#wrapper div#main-content div.contact div.main-body .submit:active {
   background-color: #18ae9a;
 }

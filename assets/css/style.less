@@ -222,7 +222,7 @@ header {
             }
         }
     
-        @media all and (max-width: 74em)
+        @media all and (max-width: 81em)
         {
             & {
                 div.container-fluid {
@@ -251,7 +251,7 @@ header {
             }
         }
             
-        @media all and (max-width: 48.000em)
+        @media all and (max-width: 50em)
         {
             & {
                 div.container-fluid {
@@ -315,18 +315,82 @@ div#wrapper {
     }
     
     div#main-content {
-        max-width: 960px;
+        width: 90%;
         margin: 0 auto;
-        padding-top: 100px;
+        padding-top: 25px;
+
+        div#side {
+            width: 25%;
+            margin-left: 5%;
+            display: inline-block;
+
+            div.content-body {
+                margin: 0;
+                float: right;
+                width: 100%;
+                padding-bottom: 50px;
+
+                div.main-body {
+                    padding: 45px 40px;
+                    display: inline-block;
+
+                    div.title {
+                        text-align: left;
+                        border-bottom: 2px solid @border-top-bottom-color;
+                        padding-bottom: 15px;
+                    }
+
+                    ul.list-categories {
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 10px 0;
+                        float: left;
+                        text-align: left;
+
+                        li {
+                            padding: 5px 0;
+                        }
+                    }
+
+                    ul.list-tags {
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 10px 0;
+                        float: left;
+                        text-align: left;
+
+                        li {
+                            display: inline-block;
+                            padding: 2px 0;
+
+                            a {
+                                display: inline-block;
+                                padding: 5px;
+                                background-color: @background-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        @media all and (max-width: 50em)
+        {
+            div#side {
+                display: none;
+            }
+
+            div.content-body {
+                margin: 0 auto;
+            }
+        }
         
         div.content-body {
-            width: 100%;
-            margin: 0 auto;
+            width: 70%;
             padding-bottom: 100px;
             
             div.main-body {
-                width: 90%;
-                margin: 0 auto;
+                width: 100%;
                 text-align: center;
                 background-color: @white-color;
                 padding: 45px 75px;
@@ -760,6 +824,7 @@ div#wrapper {
 div#wrapper {
     div#main-content {
         div.newsletter {
+            margin: 0 auto;
             div.main-body {
                 text-align: left;
                 
@@ -792,30 +857,32 @@ div#wrapper {
 div#wrapper {
     div#main-content {
         div.about {
+            margin: 0 auto;
+
             div.main-body {
                 text-align: left;
                 word-break: break-all;
-                
+
                 div.name {
                     border-bottom: 2px solid @border-top-bottom-color;
                     padding-bottom: 25px;
-                    
+
                     h2 {
                         font-weight: bold;
                         font-size: 1.5em;
                         color: @light-green-color;
                     }
                 }
-                
+
                 div.about-text {
                     padding: 45px 0 20px 0;
                 }
-                
-                div#skills {                
+
+                div#skills {
                     div.skills-title {
                         border-bottom: 2px solid @border-top-bottom-color;
                         padding-bottom: 25px;
-                        
+
                         h2 {
                             font-size: 1.35em;
                             text-decoration: underline;
@@ -823,43 +890,43 @@ div#wrapper {
                             color: @light-green-color;
                         }
                     }
-                    
+
                     div.skills {
                         padding: 15px 10px;
-                        
+
                         small {
                             font-size: 1.125em;
                             font-weight: bold;
                             color: @dark-post-color;
                             text-align: left;
                         }
-                        
+
                         div.professional,
                         div.personal {
                             margin-bottom: 15px;
-                            
+
                             div.col-sm-12 {
                                 padding: 0;
-                                
+
                                 div.col-sm-6.skill-title {
                                     margin-bottom: 10px;
-                                    
+
                                     small {
                                         font-size: 1em;
                                         font-weight: normal;
                                     }
                                 }
-                                
+
                                 div.col-sm-6 {
                                     padding: 5px;
-                                    
+
                                     div.progress-bar {
                                         width: 100%;
                                         height: 15px;
                                         border: 0;
                                         box-shadow: none;
                                         background-color: @background-color;
-                                        
+
                                         div.green-bar {
                                             height: 15px;
                                             display: inline-block;
@@ -882,38 +949,42 @@ div#wrapper {
 
 div#wrapper {
     div#main-content {
-        div.main-body {
-            text-align: left;
+        div.contact {
+            margin: 0 auto;
 
-            .name {
+            div.main-body {
                 text-align: left;
-                border-bottom: 2px solid @border-top-bottom-color;
-                padding-bottom: 25px;
-            }
 
-            .input {
-                width: 100%;
-                padding: 15px 20px;
-                margin-bottom: 20px;
-                border: 0;
-                border-radius: 0;
-                background-color: @background-color;
-                color: #a4a2a2;
-                font-size: 0.8em;
-            }
-            
-            .textarea {
-                max-width: 100%;
-                height: 200px;
-                text-transform: capitalize;
-            }
-            
-            .submit {
-                border-top: 0;
-                border-left: 0;
-                border-right: 0;
-                margin: 0 auto;
-                .flat-button();
+                .name {
+                    text-align: left;
+                    border-bottom: 2px solid @border-top-bottom-color;
+                    padding-bottom: 25px;
+                }
+
+                .input {
+                    width: 100%;
+                    padding: 15px 20px;
+                    margin-bottom: 20px;
+                    border: 0;
+                    border-radius: 0;
+                    background-color: @background-color;
+                    color: #a4a2a2;
+                    font-size: 0.8em;
+                }
+
+                .textarea {
+                    max-width: 100%;
+                    height: 200px;
+                    text-transform: capitalize;
+                }
+
+                .submit {
+                    border-top: 0;
+                    border-left: 0;
+                    border-right: 0;
+                    margin: 0 auto;
+                    .flat-button();
+                }
             }
         }
     }
