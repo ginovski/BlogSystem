@@ -21,6 +21,9 @@
                 <?php if(!is_null($user_info['googleplus'])):?>
                     <li><a class="google-plus" href="<?php echo $user_info['googleplus']?>"><i class="fa fa-google-plus"></i></a></li>
                 <?php endif;?>
+                <?php if(!is_null($user_info['github'])):?>
+                    <li><a class="google-plus" href="<?php echo $user_info['github']?>"><i class="fa fa-github"></i></a></li>
+                <?php endif;?>
                 <?php if(!is_null($user_info['linkedin'])):?>
                     <li><a class="linkedin" href="<?php echo $user_info['linkedin']?>"><i class="fa fa-linkedin"></i></a></li>
                 <?php endif;?>
