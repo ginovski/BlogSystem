@@ -1,11 +1,13 @@
 <div id="main-content">
     <div class="articles">
-        <div class="content-body article image-article">
             <?php foreach($posts as $post):?>
             <?php if(!is_null($post['imageURL'])):?>
+                <div class="content-body article image-article">
                 <div class="image">
                     <img src="<?php echo base_url(). $post['imageURL']?>" alt="Test Image">
                 </div>
+            <?php else: ?>
+                <div class="content-body text-article">
             <?php endif;?>
                 <div class="main-body">
                     <div class="title">
@@ -43,7 +45,7 @@
                         <a href="<?php echo base_url(). 'index.php/posts/details/'.$post['id']?>">read more</a>
                     </div>
                 </div>
-            <?php endforeach;?>
         </div>
+    <?php endforeach;?>
     </div>
 </div>
