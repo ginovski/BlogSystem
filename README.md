@@ -7,7 +7,9 @@
     <li>Make Post like</li>
     <li>Make Post comments</li>
     <li><strike>Make contact page</strike></li>
-    <li>Make newsletter</li>
+    <li>Make contact form to send an email</li>
+    <li>Make newsletter page</li>
+    <li>Make newsletter subscribe person</li>
     <li>Extend About page
         <ul>
             <li>Projects</li>
