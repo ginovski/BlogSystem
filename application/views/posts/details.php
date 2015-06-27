@@ -72,7 +72,8 @@
                                 <p><?php echo $comment['content']?></p>
                             </div>
                         </div>
-                        <?php endforeach;?>
+                    </div>
+                    <?php endforeach;?>
                 </div>
             </div>
         </div>
