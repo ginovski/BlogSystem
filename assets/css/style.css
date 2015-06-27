@@ -766,6 +766,14 @@ div#wrapper div#main-content div.about div.main-body div#skills div.skills div.p
 div#wrapper div#main-content div.main-body {
   text-align: left;
 }
+div#wrapper div#main-content div.main-body .name {
+  text-align: left;
+  border-bottom: 2px solid #d1d2d4;
+  padding-bottom: 25px;
+}
+div#wrapper div#main-content div.main-body .name small {
+  margin-left: 5%;
+}
 div#wrapper div#main-content div.main-body .input {
   width: 100%;
   padding: 15px 20px;
