@@ -1,17 +1,20 @@
 <div id="main-content">
     <div class="articles">
         <div class="content-body text-article">
-            <?php if(!is_null($post['imageURL'])):?>
+            <div class="main-body">
                 <div class="image">
                     <img src="<?php echo base_url(). $post['imageURL']?>" alt="Test Image">
                 </div>
-            <?php endif;?>
-            <div class="main-body">
+
                 <div class="title">
                     <h2><?php echo $post['title']?></h2>
                 </div>
 
                 <div class="date-comments">
+                    <div class="author">
+                        <p><i class="fa fa-user"></i> <?php echo $post['author']?></p>
+                    </div>
+
                     <div class="date">
                         <p><i class="fa fa-clock-o"></i> <?php echo $post['date']?></p>
                     </div>
