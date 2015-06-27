@@ -242,19 +242,20 @@ div#wrapper div#main-content div.content-body {
   margin: 0 auto;
   padding-bottom: 100px;
 }
-div#wrapper div#main-content div.content-body div.image {
-  width: 75%;
-  margin: 0 auto;
-}
-div#wrapper div#main-content div.content-body div.image img {
-  width: 100%;
-}
 div#wrapper div#main-content div.content-body div.main-body {
-  width: 72%;
+  width: 90%;
   margin: 0 auto;
   text-align: center;
   background-color: #ffffff;
   padding: 45px 75px;
+}
+div#wrapper div#main-content div.content-body div.main-body div.image {
+  width: 75%;
+  margin: 0 auto;
+  padding: 0 0 40px 0;
+}
+div#wrapper div#main-content div.content-body div.main-body div.image img {
+  width: 100%;
 }
 div#wrapper div#main-content div.content-body div.main-body div.title {
   padding-bottom: 25px;
