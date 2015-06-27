@@ -311,6 +311,7 @@ div#wrapper div#main-content div.content-body div.main-body div.image img {
 }
 div#wrapper div#main-content div.content-body div.main-body div.title {
   padding-bottom: 25px;
+  text-align: center;
 }
 div#wrapper div#main-content div.content-body div.main-body div.title h2 {
   font-weight: bold;
