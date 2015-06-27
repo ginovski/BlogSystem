@@ -11,8 +11,12 @@
                 </div>
 
                 <div class="date-comments">
+                    <div class="author">
+                        <p><i class="fa fa-user"></i> [Name]</p>
+                    </div>
+
                     <div class="date">
-                        <p><i class="fa fa-clock-o"></i> 15 May, 2015</p>
+                        <p><i class="fa fa-clock-o"></i> [Date]</p>
                     </div>
 
                     <div class="comments">
