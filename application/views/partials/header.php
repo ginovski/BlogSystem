@@ -14,8 +14,8 @@
     <script src="<?php echo base_url().'assets/scripts/bootstrap.min.js'?>" ></script>
     <script src="<?php echo base_url().'assets/scripts/less.min.js'?>" ></script>
     <script src="<?php echo base_url().'assets/scripts/comments-color-change.js'?>" ></script>
-    <script src="<?php echo base_url().'assets/scripts/progress-bar-width.js'?>" ></script>
     <script src="<?php echo base_url().'assets/scripts/smooth-scroll.js'?>" ></script>
+    <script src="<?php echo base_url().'assets/scripts/progress-bar-width.js'?>" ></script>
 </head>
 <body>
 <header>
