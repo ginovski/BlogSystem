@@ -20,7 +20,7 @@
                         <p>
                             <a href="#comments">
                                 <i class="fa fa-comments"></i>
-                                <span class="number-comments">15</span> comments
+                                <span class="number-comments"><?php echo sizeof($comments)?></span> comments
                             </a>
                         </p>
                     </div>
@@ -36,131 +36,47 @@
             </div>
         </div>
     </div>
-<!---->
-<!--    <div id="comments">-->
-<!--        <div class="content-body">-->
-<!--            <div class="main-body">-->
-<!--                <div class="title">-->
-<!--                    <h2 class="text-left">-->
-<!--                        <span class="number-of-comments">15</span>-->
-<!--                        Comments-->
-<!--                    </h2>-->
-<!--                </div>-->
-<!---->
-<!--                <div class="comments-section">-->
-<!--                    <div class="comment">-->
-<!--                        <div class="user-data">-->
-<!--                            <div class="col-sm-3 col-xs-4">-->
-<!--                                <div class="image">-->
-<!--                                    <img src="images/testImage.jpg" alt="Test Image">-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!---->
-<!--                            <div class="col-sm-8 col-xs-8 text-left">-->
-<!--                                <p class="by">Will Smith</p>-->
-<!--                                <br>-->
-<!--                                <small class="when">about 2 years ago</small>-->
-<!--                                <br>-->
-<!--                                <a href="#write-a-comment">Reply</a>-->
-<!--                            </div>-->
-<!---->
-<!--                            <div class="user-comment col-sm-9 col-xs-12 text-left">-->
-<!--                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam adipiscing mauris quis quam mollis adipiscing. Nulla nunc mauris, porta ut ornare nec, mollis sed purus.</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!---->
-<!--                        <div class="comment reply">-->
-<!--                            <div class="user-data">-->
-<!--                                <div class="col-sm-3 col-xs-4">-->
-<!--                                    <div class="image">-->
-<!--                                        <img src="images/testImage.jpg" alt="Test Image">-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!---->
-<!--                                <div class="col-sm-8 col-xs-8 text-left">-->
-<!--                                    <p class="by">Krasi Stoyanov</p>-->
-<!--                                    <br>-->
-<!--                                    <small class="when">about 2 years ago</small>-->
-<!--                                    <br>-->
-<!--                                    <a href="#write-a-comment">Reply</a>-->
-<!--                                </div>-->
-<!---->
-<!--                                <div class="user-comment col-sm-9 col-xs-12 text-left">-->
-<!--                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam adipiscing mauris quis quam mollis adipiscing. Nulla nunc mauris, ..</p>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!---->
-<!--                            <div class="comment reply-reply">-->
-<!--                                <div class="user-data">-->
-<!--                                    <div class="col-sm-3 col-xs-4">-->
-<!--                                        <div class="image">-->
-<!--                                            <img src="images/testImage.jpg" alt="Test Image">-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!---->
-<!--                                    <div class="col-sm-8 col-xs-8 text-left">-->
-<!--                                        <p class="by">Will Smith</p>-->
-<!--                                        <br>-->
-<!--                                        <small class="when">about 1 year ago</small>-->
-<!--                                        <br>-->
-<!--                                        <a href="#write-a-comment">Reply</a>-->
-<!--                                    </div>-->
-<!---->
-<!--                                    <div class="user-comment col-sm-9 col-xs-12 text-left">-->
-<!--                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam adipiscing mauris quis quam mollis adipiscing. Nulla nunc mauris, ..</p>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!---->
-<!--                    <div class="comment">-->
-<!--                        <div class="user-data">-->
-<!--                            <div class="col-sm-3 col-xs-4">-->
-<!--                                <div class="image">-->
-<!--                                    <img src="images/testImage.jpg" alt="Test Image">-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!---->
-<!--                            <div class="col-sm-8 col-xs-8 text-left">-->
-<!--                                <p class="by">Harry Kewell</p>-->
-<!--                                <br>-->
-<!--                                <small class="when">about 2 years ago</small>-->
-<!--                                <br>-->
-<!--                                <a href="#write-a-comment">Reply</a>-->
-<!--                            </div>-->
-<!---->
-<!--                            <div class="user-comment col-sm-9 col-xs-12 text-left">-->
-<!--                                <p>Pellentesque eget venenatis ipsum. In quis turpis in turpis faucibus eleifend a non nunc. Mauris vel elit rutrum, consectetur urna vel, aliquet nibh. Praesent in congue nibh. Nam urna sem, euismod et blandit ut, faucibus ut quam.</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!---->
-<!--                    <div class="comment">-->
-<!--                        <div class="user-data">-->
-<!--                            <div class="col-sm-3 col-xs-4">-->
-<!--                                <div class="image">-->
-<!--                                    <img src="images/testImage.jpg" alt="Test Image">-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!---->
-<!--                            <div class="col-sm-8 col-xs-8 text-left">-->
-<!--                                <p class="by">Wesley Sneijder</p>-->
-<!--                                <br>-->
-<!--                                <small class="when">about 2 years ago</small>-->
-<!--                                <br>-->
-<!--                                <a href="#write-a-comment">Reply</a>-->
-<!--                            </div>-->
-<!---->
-<!--                            <div class="user-comment col-sm-9 col-xs-12 text-left">-->
-<!--                                <p>Nullam est neque, vestibulum non dolor ultricies, fringilla euismod purus. Fusce tincidunt sed nulla quis gravida. Nullam ultrices nunc id magna laoreet posuere. Praesent non erat a ipsum blandit pulvinar. Nulla eu felis auctor tellus vestibulum varius. Mauris eu scelerisque ligula. Sed euismod auctor mauris et consectetur.</p>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
+
+    <div id="comments">
+        <div class="content-body">
+            <div class="main-body">
+                <div class="title">
+                    <h2 class="text-left">
+                        <span class="number-of-comments"><?php echo sizeof($comments)?></span>
+                        Comments
+                    </h2>
+                </div>
+
+                <div class="comments-section">
+                    <?php if(sizeof($comments) == 0):?>
+                     <p class="no-comments">There are no comments. Be the first to <a href="#write-a-comment">comment</a>.
+                     <?php endif;?>
+                    <?php foreach($comments as $comment):?>
+                    <div class="comment">
+                        <div class="user-data">
+                            <div class="col-sm-3 col-xs-4">
+                                <div class="image">
+                                    <img src="<?php echo base_url(). 'assets/images/testImage.jpg'?>" alt="Test Image">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-8 col-xs-8 text-left">
+                                <p class="by"><?php echo $comment['author']?></p>
+                                <br>
+                                <small class="when"><?php echo $comment['date']?></small>
+                                <br>
+                                <a href="#write-a-comment">Reply</a>
+                            </div>
+
+                            <div class="user-comment col-sm-9 col-xs-12 text-left">
+                                <p><?php echo $comment['content']?></p>
+                            </div>
+                        </div>
+                        <?php endforeach;?>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div id="write-a-comment">
         <div class="content-body">

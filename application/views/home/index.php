@@ -23,9 +23,9 @@
 
                         <div class="comments">
                             <p>
-                                <a href="post-without-comments.html">
+                                <a href="<?php echo base_url(). 'index.php/posts/details/'.$post['id']?>">
                                     <i class="fa fa-comments"></i>
-                                    <span class="number-comments">0</span> comments
+                                    <span class="number-comments"><?php echo $comments[$post['id']]?></span> comments
                                 </a>
                             </p>
                         </div>

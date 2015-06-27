@@ -16,4 +16,10 @@ class Post_model extends CI_Model{
 
         return $query->result_array();
     }
+
+    public function getPostComments($id){
+        $query = $this->db->get_where('comments', array('post_id' => $id));
+
+        return $query->result_array();
+    }
 }

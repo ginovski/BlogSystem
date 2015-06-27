@@ -9,8 +9,13 @@ class Home extends CI_Controller{
     public function index(){
         $data['user_info'] = $this->user_model->getUserInfo()[0];
         $posts = [];
+        $commentsCount = [];
 
         $posts['posts'] = $this->post_model->getAllPosts();
+        foreach($posts['posts'] as $post){
+            $commentsCount[$post['id']] = sizeof($this->post_model->getPostComments($post['id']));
+        }
+        $posts['comments'] = $commentsCount;
 
         $this->load->view('partials/header', $data);
         $this->load->view('home/index', $posts);
