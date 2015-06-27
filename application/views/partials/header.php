@@ -28,16 +28,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><?php echo $user_info['fullname']?> <small><?php echo $user_info['profession']?></small></a>
+                <a class="navbar-brand" href="<?php echo base_url(). 'index.php'?>"><?php echo $user_info['fullname']?> <small><?php echo $user_info['profession']?></small></a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active nav-link"><a href="#">Home</a></li>
+                    <li class="active nav-link"><a href="<?php echo base_url(). 'index.php'?>">Home</a></li>
                     <li class="nav-link"><a href="#">Portfolio</a></li>
-                    <li class="nav-link"><a href="#">Newsletter</a></li>
-                    <li class="nav-link"><a href="#">About</a></li>
-                    <li class="nav-link"><a href="#">Contact</a></li>
+                    <li class="nav-link"><a href="<?php echo base_url(). 'index.php/newsletter/subscribe'?>">Newsletter</a></li>
+                    <li class="nav-link"><a href="<?php echo base_url(). 'index.php/home/about'?>">About</a></li>
+                    <li class="nav-link"><a href="<?php echo base_url(). 'index.php/home/contact'?>">Contact</a></li>
                 </ul>
             </div>
         </div>
