@@ -1,5 +1,5 @@
 # BlogSystem
-Personal Blog system
+<h2>Personal Blog system</h2>
 <ul>
     <li>Create Post table in Database</li>
     <li>Show all posts in the home page, sorted by date. 5 posts on page</li>
