@@ -26,7 +26,7 @@
                     </div>
 
                     <div class="like">
-                        <a href=""><i class="like fa fa-heart"></i> Like [<?php echo $post['likes']?> likes]</a>
+                        <a href=""><i class="like fa fa-heart"></i> <?php echo $post['likes']?></a>
                     </div>
                 </div>
 
