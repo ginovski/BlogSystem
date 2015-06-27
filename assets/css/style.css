@@ -1,3 +1,28 @@
+/*
+Author     : Krasimir Stoyanov
+Company    : ProDevity
+Description: Style-Layout
+
+*/
+/* Table of Content
+==================================================
+
+#GENERAL
+#HEADER
+#MAIN CONTENT
+#FOOTER
+
+=====SECTIONS=====
+#HOME
+#ARTICLE
+#PORTFOLIO
+#NEWSLETTER
+#ABOUT
+#CONTACT
+
+*/
+/* GENERAL
+   ================================================== */
 .flat-button {
   display: inline-block;
   padding: 20px;
@@ -51,23 +76,15 @@
 }
 @font-face {
   font-family: 'jaapokki_enchanceregular';
-  src: url('type/jaapokkienchance-regular-webfont.eot');
-  src: url('type/jaapokkienchance-regular-webfont.eot?#iefix') format('embedded-opentype'),
-  url('type/jaapokkienchance-regular-webfont.woff2') format('woff2'),
-  url('type/jaapokkienchance-regular-webfont.woff') format('woff'),
-  url('type/jaapokkienchance-regular-webfont.ttf') format('truetype'),
-  url('type/jaapokkienchance-regular-webfont.svg#jaapokki_enchanceregular') format('svg');
+  src: url('../../../../../Users/Alexandar/Desktop/BlogSystem%20-%20static%20files/css/type/jaapokkienchance-regular-webfont.eot');
+  src: url('../../../../../Users/Alexandar/Desktop/BlogSystem%20-%20static%20files/css/type/jaapokkienchance-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../../../../../Users/Alexandar/Desktop/BlogSystem%20-%20static%20files/css/type/jaapokkienchance-regular-webfont.woff2') format('woff2'), url('../../../../../Users/Alexandar/Desktop/BlogSystem%20-%20static%20files/css/type/jaapokkienchance-regular-webfont.woff') format('woff'), url('../../../../../Users/Alexandar/Desktop/BlogSystem%20-%20static%20files/css/type/jaapokkienchance-regular-webfont.ttf') format('truetype'), url('../../../../../Users/Alexandar/Desktop/BlogSystem%20-%20static%20files/css/type/jaapokkienchance-regular-webfont.svg#jaapokki_enchanceregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'jaapokkiregular';
-  src: url('type/jaapokki-regular-webfont.eot');
-  src: url('type/jaapokki-regular-webfont.eot?#iefix') format('embedded-opentype'),
-  url('type/jaapokki-regular-webfont.woff2') format('woff2'),
-  url('type/jaapokki-regular-webfont.woff') format('woff'),
-  url('type/jaapokki-regular-webfont.ttf') format('truetype'),
-  url('type/jaapokki-regular-webfont.svg#jaapokkiregular') format('svg');
+  src: url('../../../../../Users/Alexandar/Desktop/BlogSystem%20-%20static%20files/css/type/jaapokki-regular-webfont.eot');
+  src: url('../../../../../Users/Alexandar/Desktop/BlogSystem%20-%20static%20files/css/type/jaapokki-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../../../../../Users/Alexandar/Desktop/BlogSystem%20-%20static%20files/css/type/jaapokki-regular-webfont.woff2') format('woff2'), url('../../../../../Users/Alexandar/Desktop/BlogSystem%20-%20static%20files/css/type/jaapokki-regular-webfont.woff') format('woff'), url('../../../../../Users/Alexandar/Desktop/BlogSystem%20-%20static%20files/css/type/jaapokki-regular-webfont.ttf') format('truetype'), url('../../../../../Users/Alexandar/Desktop/BlogSystem%20-%20static%20files/css/type/jaapokki-regular-webfont.svg#jaapokkiregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -507,6 +524,18 @@ footer div#footer div.social-media ul li .youtube:active,
 footer div#footer div.social-media ul li .youtube:focus {
   background-color: #df3431;
   border-color: #bf211e;
+}
+footer div#footer div.social-media ul li .linkedin:hover,
+footer div#footer div.social-media ul li .linkedin:active,
+footer div#footer div.social-media ul li .linkedin:focus {
+  background-color: #1985bc;
+  border-color: #13658f;
+}
+footer div#footer div.social-media ul li .github:hover,
+footer div#footer div.social-media ul li .github:active,
+footer div#footer div.social-media ul li .github:focus {
+  background-color: #171515;
+  border-color: #000000;
 }
 @media all and (max-width: 43.75em) {
   footer div#footer {

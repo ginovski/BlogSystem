@@ -45,6 +45,8 @@ Description: Style-Layout
 @google-plus-color: #d42926;
 @flickr-color: #ed1e83;
 @youtube-color: #df3431;
+@linkedin-color: #1985bc;
+@github-color: #171515;
 
 @border-size: 4px;
 @border-top-bottom-color: #d1d2d4;
@@ -512,10 +514,6 @@ footer {
             font-size: 1em;
             color: @light-post-color;
             border-top: 2px solid @border-top-bottom-color;
-            
-            p.personal-blog-desc {
-                padding-bottom: 45px;
-            }
         }
             
         hr {
@@ -590,6 +588,20 @@ footer {
                     .youtube:focus {
                         background-color: @youtube-color;
                         border-color: darken(@youtube-color, 10%);
+                    }
+
+                    .linkedin:hover,
+                    .linkedin:active,
+                    .linkedin:focus {
+                      background-color: @linkedin-color;
+                      border-color: darken(@linkedin-color, 10%);
+                    }
+
+                    .github:hover,
+                    .github:active,
+                    .github:focus {
+                      background-color: @github-color;
+                      border-color: darken(@github-color, 10%);
                     }
                 }
             }
