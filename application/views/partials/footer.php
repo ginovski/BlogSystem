@@ -37,5 +37,6 @@
         </div>
     </div>
 </footer>
+<script src="<?php echo base_url(). 'assets/scripts/active-link-state.js'?>"></script>
 </body>
 </html>

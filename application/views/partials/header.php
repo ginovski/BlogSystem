@@ -33,7 +33,7 @@
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active nav-link"><a href="<?php echo base_url(). 'index.php'?>">Home</a></li>
+                    <li class="nav-link"><a href="<?php echo base_url(). 'index.php'?>">Home</a></li>
                     <li class="nav-link"><a href="#">Portfolio</a></li>
                     <li class="nav-link"><a href="<?php echo base_url(). 'index.php/newsletter/subscribe'?>">Newsletter</a></li>
                     <li class="nav-link"><a href="<?php echo base_url(). 'index.php/home/about'?>">About</a></li>
