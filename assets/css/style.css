@@ -603,48 +603,54 @@ footer div#footer div.social-media ul li .github:focus {
 }
 /* ARTICLE
    ================================================== */
-div#wrapper div#main-content div#comments div.comments-section p.no-comments {
+div#wrapper div#main-content div.detail-view div.content-body {
+  margin: 0 auto;
+}
+div#wrapper div#main-content div#comments div.content-body {
+  margin: 0 auto;
+}
+div#wrapper div#main-content div#comments div.content-body div.comments-section p.no-comments {
   font-size: 1.375em;
   color: #c1bfbf;
 }
-div#wrapper div#main-content div#comments div.comments-section p.no-comments a {
+div#wrapper div#main-content div#comments div.content-body div.comments-section p.no-comments a {
   color: #54c0b0;
   text-decoration: underline;
   font-weight: bold;
 }
-div#wrapper div#main-content div#comments div.comments-section div.comment {
+div#wrapper div#main-content div#comments div.content-body div.comments-section div.comment {
   display: inline-block;
   width: 100%;
 }
-div#wrapper div#main-content div#comments div.comments-section div.comment div.user-data {
+div#wrapper div#main-content div#comments div.content-body div.comments-section div.comment div.user-data {
   display: inline-block;
 }
-div#wrapper div#main-content div#comments div.comments-section div.comment div.user-data div.col-sm-3 {
+div#wrapper div#main-content div#comments div.content-body div.comments-section div.comment div.user-data div.col-sm-3 {
   display: inline-block;
   text-align: right;
   padding: 0;
 }
-div#wrapper div#main-content div#comments div.comments-section div.comment div.user-data div.col-sm-3 div.image {
+div#wrapper div#main-content div#comments div.content-body div.comments-section div.comment div.user-data div.col-sm-3 div.image {
   width: 100%;
   display: inline-block;
   float: left;
 }
-div#wrapper div#main-content div#comments div.comments-section div.comment div.user-data div.col-sm-8 {
+div#wrapper div#main-content div#comments div.content-body div.comments-section div.comment div.user-data div.col-sm-8 {
   display: inline-block;
 }
-div#wrapper div#main-content div#comments div.comments-section div.comment div.user-data div.col-sm-8 p.by {
+div#wrapper div#main-content div#comments div.content-body div.comments-section div.comment div.user-data div.col-sm-8 p.by {
   display: inline-block;
   font-size: 1em;
   font-weight: bold;
   color: #636467;
   margin: 0;
 }
-div#wrapper div#main-content div#comments div.comments-section div.comment div.user-data div.col-sm-8 small.when {
+div#wrapper div#main-content div#comments div.content-body div.comments-section div.comment div.user-data div.col-sm-8 small.when {
   display: inline-block;
   font-size: 0.8em;
   color: #c1bfbf;
 }
-div#wrapper div#main-content div#comments div.comments-section div.comment div.user-data div.col-sm-8 a {
+div#wrapper div#main-content div#comments div.content-body div.comments-section div.comment div.user-data div.col-sm-8 a {
   display: inline-block;
   padding: 20px;
   background-color: #54c0b0;
@@ -661,20 +667,23 @@ div#wrapper div#main-content div#comments div.comments-section div.comment div.u
   transition: all 0.2s ease-in;
   padding: 5px 10px;
 }
-div#wrapper div#main-content div#comments div.comments-section div.comment div.user-data div.col-sm-8 a:hover,
-div#wrapper div#main-content div#comments div.comments-section div.comment div.user-data div.col-sm-8 a:focus,
-div#wrapper div#main-content div#comments div.comments-section div.comment div.user-data div.col-sm-8 a:active {
+div#wrapper div#main-content div#comments div.content-body div.comments-section div.comment div.user-data div.col-sm-8 a:hover,
+div#wrapper div#main-content div#comments div.content-body div.comments-section div.comment div.user-data div.col-sm-8 a:focus,
+div#wrapper div#main-content div#comments div.content-body div.comments-section div.comment div.user-data div.col-sm-8 a:active {
   background-color: #18ae9a;
 }
-div#wrapper div#main-content div#comments div.comments-section div.comment div.user-data div.user-comment {
+div#wrapper div#main-content div#comments div.content-body div.comments-section div.comment div.user-data div.user-comment {
   padding: 10px 15px;
   color: #c1bfbf;
 }
-div#wrapper div#main-content div#comments div.comments-section div.comment div.reply div.user-data {
+div#wrapper div#main-content div#comments div.content-body div.comments-section div.comment div.reply div.user-data {
   padding-left: 8%;
 }
-div#wrapper div#main-content div#comments div.comments-section div.comment div.reply div.reply-reply div.user-data {
+div#wrapper div#main-content div#comments div.content-body div.comments-section div.comment div.reply div.reply-reply div.user-data {
   padding-left: 16%;
+}
+div#wrapper div#main-content div#write-a-comment div.content-body {
+  margin: 0 auto;
 }
 /* PORTFOLIO
    ================================================== */

@@ -1,5 +1,5 @@
 <div id="main-content">
-    <div class="articles">
+    <div class="articles detail-view">
         <div class="content-body text-article">
             <div class="main-body">
                 <div class="image">
@@ -83,7 +83,7 @@
     </div>
 
     <div id="write-a-comment">
-        <div class="content-body">
+        <div class="content-body contact">
             <div class="main-body">
                 <div class="title">
                     <h2 class="text-left">Leave a Comment</h2>

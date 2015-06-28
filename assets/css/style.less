@@ -692,79 +692,94 @@ footer {
 
 div#wrapper {
     div#main-content {
+        div.detail-view {
+            div.content-body {
+                margin: 0 auto;
+            }
+        }
+
         div#comments {
-            div.comments-section {                
-                p.no-comments {
-                    font-size: 1.375em;
-                    color: @light-post-color;
-                    
-                    a {
-                        color: @light-green-color;
-                        text-decoration: underline;
-                        font-weight: bold;
-                    }
-                }
-                
-                div.comment {
-                    display: inline-block;
-                    width: 100%;
-                    
-                    div.user-data {
-                        display: inline-block;
-                        
-                        div.col-sm-3 {
-                            display: inline-block;
-                            text-align: right;
-                            padding: 0;
-                            
-                            div.image {
-                                width: 100%;
-                                display: inline-block;
-                                float: left;
-                            }
+            div.content-body {
+                margin: 0 auto;
+                div.comments-section {
+                    p.no-comments {
+                        font-size: 1.375em;
+                        color: @light-post-color;
+
+                        a {
+                            color: @light-green-color;
+                            text-decoration: underline;
+                            font-weight: bold;
                         }
-                        
-                        div.col-sm-8 {
+                    }
+
+                    div.comment {
+                        display: inline-block;
+                        width: 100%;
+
+                        div.user-data {
                             display: inline-block;
-                            
-                            p.by {
+
+                            div.col-sm-3 {
                                 display: inline-block;
-                                font-size: 1em;
-                                font-weight: bold;
-                                color: @dark-post-color;
-                                margin: 0;
+                                text-align: right;
+                                padding: 0;
+
+                                div.image {
+                                    width: 100%;
+                                    display: inline-block;
+                                    float: left;
+                                }
                             }
-                            
-                            small.when {
+
+                            div.col-sm-8 {
                                 display: inline-block;
-                                font-size: 0.8em;
+
+                                p.by {
+                                    display: inline-block;
+                                    font-size: 1em;
+                                    font-weight: bold;
+                                    color: @dark-post-color;
+                                    margin: 0;
+                                }
+
+                                small.when {
+                                    display: inline-block;
+                                    font-size: 0.8em;
+                                    color: @light-post-color;
+                                }
+
+                                a {
+                                    .flat-button();
+                                    padding: 5px 10px;
+                                }
+                            }
+
+                            div.user-comment {
+                                padding: 10px 15px;
                                 color: @light-post-color;
                             }
-                            
-                            a {
-                                .flat-button();
-                                padding: 5px 10px;
-                            }
                         }
-                        
-                        div.user-comment {
-                            padding: 10px 15px;
-                            color: @light-post-color;
-                        }
-                    }
-                    
-                    div.reply {
-                        div.user-data {
-                            padding-left: 8%;
-                        }
-                    
-                        div.reply-reply {
+
+                        div.reply {
                             div.user-data {
-                                padding-left: 16%;
+                                padding-left: 8%;
+                            }
+
+                            div.reply-reply {
+                                div.user-data {
+                                    padding-left: 16%;
+                                }
                             }
                         }
                     }
                 }
+            }
+        }
+
+        div#write-a-comment {
+            div.content-body {
+                margin: 0 auto;
             }
         }
     }
