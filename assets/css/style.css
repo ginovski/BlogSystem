@@ -480,6 +480,9 @@ div#wrapper div#main-content div#paging div.right-arrow a:active {
     width: 90%;
     padding: 50px 0;
   }
+  div#wrapper div#main-content div.content-body {
+    width: 90%;
+  }
   div#wrapper div#main-content div.content-body div.main-body {
     padding: 25px;
     font-size: 0.8em;

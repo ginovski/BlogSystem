@@ -128,13 +128,6 @@
                             <br/>
                             <small>[date]</small>
                         </div>
-
-                        <div class="portfolio-data">
-                            <strong>[Education Centre Title]</strong>
-                            <small>([location])</small>
-                            <br/>
-                            <small>[date]</small>
-                        </div>
                     </div>
                 </div>
             </div>
