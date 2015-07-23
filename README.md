@@ -15,10 +15,10 @@
     <li>Make newsletter subscribe person</li>
     <li>Extend About page
         <ul>
-            <li>Projects</li>
-            <li>Certificates</li>
-            <li>Languages</li>
-            <li>Education</li>
+            <li><strike>Projects</strike></li>
+            <li><strike>Certificates</strike></li>
+            <li><strike>Languages</strike></li>
+            <li><strike>Education</strike></li>
         </ul>
     </li>
 </ul>
