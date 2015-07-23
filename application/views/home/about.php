@@ -51,6 +51,93 @@
                     </div>
                 </div>
             </div>
+
+            <div id="skills">
+                <div class="skills-title">
+                    <h2>Projects</h2>
+                </div>
+
+                <div class="portfolio row">
+                    <div class="col-md-12">
+                        <div class="portfolio-data">
+                            <a href="">[Project Title]</a>
+                            <small>(date)</small>
+
+                            <div>
+                                <small>Description: </small>
+                                <span>[description]</span>
+                            </div>
+
+                            <div>
+                                <small>Technologies: </small>
+                                <span>[technology], [technology]</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="skills">
+                <div class="skills-title">
+                    <h2>Certificates</h2>
+                </div>
+
+                <div class="portfolio row">
+                    <div class="col-md-12">
+                        <div class="portfolio-data">
+                            <a href="">[Certificate Title]</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="skills">
+                <div class="skills-title">
+                    <h2>Languages</h2>
+                </div>
+
+                <div class="portfolio row">
+                    <div class="col-md-12">
+                        <div class="portfolio-data">
+                            <div class="col-md-4 col-sm-4">
+                                <strong>[English]</strong>
+                            </div>
+
+                            <div class="col-md-4 col-sm-4">
+                                <strong>[Bulgarisch]</strong>
+                            </div>
+
+                            <div class="col-md-4 col-sm-4">
+                                <strong>[German]</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="skills">
+                <div class="skills-title">
+                    <h2>Education</h2>
+                </div>
+
+                <div class="portfolio row">
+                    <div class="col-md-12">
+                        <div class="portfolio-data">
+                            <strong>[Education Centre Title]</strong>
+                            <small>([location])</small>
+                            <br/>
+                            <small>[date]</small>
+                        </div>
+
+                        <div class="portfolio-data">
+                            <strong>[Education Centre Title]</strong>
+                            <small>([location])</small>
+                            <br/>
+                            <small>[date]</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

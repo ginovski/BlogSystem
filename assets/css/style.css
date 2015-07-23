@@ -293,7 +293,7 @@ div#wrapper div#main-content div#side div.content-body div.main-body ul.list-tag
 }
 div#wrapper div#main-content div.content-body {
   width: 70%;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 div#wrapper div#main-content div.content-body div.main-body {
   width: 100%;
@@ -834,6 +834,20 @@ div#wrapper div#main-content div.about div.main-body div#skills div.skills div.p
   display: inline-block;
   float: left;
   background-color: #54c0b0;
+}
+div#wrapper div#main-content div.about div.main-body div#skills div.portfolio {
+  padding: 15px 10px;
+}
+div#wrapper div#main-content div.about div.main-body div#skills div.portfolio div.portfolio-data {
+  margin-bottom: 15px;
+}
+div#wrapper div#main-content div.about div.main-body div#skills div.portfolio div.portfolio-data a {
+  font-size: 1.125em;
+  font-weight: bold;
+  text-align: left;
+}
+div#wrapper div#main-content div.about div.main-body div#skills div.portfolio div.portfolio-data div small {
+  font-weight: bold;
 }
 /* CONTACT
    ================================================== */
