@@ -252,6 +252,31 @@ div#wrapper div#main-content div#side div.content-body div.main-body {
   padding: 45px 40px;
   display: inline-block;
 }
+div#wrapper div#main-content div#side div.content-body div.main-body .form-control {
+  border-width: 2px;
+  border-radius: 0;
+  border-right: 0;
+}
+div#wrapper div#main-content div#side div.content-body div.main-body .form-control:focus,
+div#wrapper div#main-content div#side div.content-body div.main-body .form-control:active {
+  outline: 0;
+  box-shadow: none;
+  border-color: #54c0b0;
+}
+div#wrapper div#main-content div#side div.content-body div.main-body button {
+  border-left: 0;
+  border-radius: 0;
+  border-color: #54c0b0;
+  background-color: #54c0b0;
+  color: #fff;
+  transition: all ease-in 0.2s;
+}
+div#wrapper div#main-content div#side div.content-body div.main-body button:hover,
+div#wrapper div#main-content div#side div.content-body div.main-body button:focus,
+div#wrapper div#main-content div#side div.content-body div.main-body button:active {
+  background-color: #18ae9a;
+  border-color: #18ae9a;
+}
 div#wrapper div#main-content div#side div.content-body div.main-body div.title {
   text-align: left;
   border-bottom: 2px solid #d1d2d4;
@@ -314,6 +339,7 @@ div#wrapper div#main-content div.content-body div.main-body div.title {
   text-align: center;
 }
 div#wrapper div#main-content div.content-body div.main-body div.title h2 {
+  margin: 0;
   font-weight: bold;
   font-size: 1.5em;
   color: #3c3c3c;

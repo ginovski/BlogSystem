@@ -3,6 +3,21 @@
         <div id="side" class="pull-right">
             <div class="content-body">
                 <div class="main-body">
+                    <form action="" role="form">
+                        <div class="input-group custom-search-form">
+                            <input type="text" class="form-control" name="search" placeholder="Search">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="content-body">
+                <div class="main-body">
                     <div class="categories">
                         <div class="title text-left">
                             <h2>Categories</h2>
