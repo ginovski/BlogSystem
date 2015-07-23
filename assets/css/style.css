@@ -128,14 +128,40 @@ header nav.navbar div.container-fluid div.navbar-header button.navbar-toggle {
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
+header nav.navbar div.container-fluid div.navbar-header button.navbar-toggle .icon-bar {
+  width: 22px;
+  transition: all 0.2s;
+}
+header nav.navbar div.container-fluid div.navbar-header button.navbar-toggle .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+header nav.navbar div.container-fluid div.navbar-header button.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+header nav.navbar div.container-fluid div.navbar-header button.navbar-toggle .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
 header nav.navbar div.container-fluid div.navbar-header button.navbar-toggle span {
   border-radius: 0;
   background-color: #ffffff;
+  margin-right: auto;
+  margin-left: auto;
 }
 header nav.navbar div.container-fluid div.navbar-header button.navbar-toggle:hover,
 header nav.navbar div.container-fluid div.navbar-header button.navbar-toggle:focus,
 header nav.navbar div.container-fluid div.navbar-header button.navbar-toggle:active {
-  background-color: #18ae9a;
+  background-color: transparent !important;
+}
+header nav.navbar div.container-fluid div.navbar-header .navbar-toggle.collapsed .top-bar {
+  transform: rotate(0);
+}
+header nav.navbar div.container-fluid div.navbar-header .navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+header nav.navbar div.container-fluid div.navbar-header .navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0);
 }
 header nav.navbar div.container-fluid div.navbar-header a.navbar-brand {
   color: #ffffff;

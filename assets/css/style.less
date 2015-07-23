@@ -168,14 +168,49 @@ header {
                     border-radius: 0;
                     margin: 30px 15px;
                     .transition();
+
+                    .icon-bar {
+                        width: 22px;
+                        transition: all 0.2s;
+                    }
+
+                    .top-bar {
+                        transform: rotate(45deg);
+                        transform-origin: 10% 10%;
+                    }
+
+                    .middle-bar {
+                        opacity: 0;
+                    }
+
+                    .bottom-bar {
+                        transform: rotate(-45deg);
+                        transform-origin: 10% 90%;
+                    }
                     
                     span {
                         border-radius: 0;
                         background-color: @white-color;
+                        margin-right: auto;
+                        margin-left: auto;
                     }
                     
                     &:hover, &:focus, &:active {
-                        background-color: @dark-green-color;
+                        background-color: transparent !important;
+                    }
+                }
+
+                .navbar-toggle.collapsed {
+                    .top-bar {
+                        transform: rotate(0);
+                    }
+
+                    .middle-bar {
+                        opacity: 1;
+                    }
+
+                    .bottom-bar {
+                        transform: rotate(0);
                     }
                 }
                 
