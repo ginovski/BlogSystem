@@ -32,11 +32,5 @@ class Home extends CI_Controller{
         $this->load->view('partials/footer', $data);
     }
 
-    public function contact(){
-        $data['user_info'] = $this->user_model->getUserInfo()[0];
 
-        $this->load->view('partials/header', $data);
-        $this->load->view('home/contact', $data);
-        $this->load->view('partials/footer', $data);
-    }
 }

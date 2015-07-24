@@ -37,7 +37,7 @@
                     <li class="nav-link"><a href="#">Portfolio</a></li>
                     <li class="nav-link"><a href="<?php echo base_url(). 'newsletter/subscribe'?>">Newsletter</a></li>
                     <li class="nav-link"><a href="<?php echo base_url(). 'home/about'?>">About</a></li>
-                    <li class="nav-link"><a href="<?php echo base_url(). 'home/contact'?>">Contact</a></li>
+                    <li class="nav-link"><a href="<?php echo base_url(). 'contact'?>">Contact</a></li>
                 </ul>
             </div>
         </div>

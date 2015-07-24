@@ -14,12 +14,12 @@
             </div>
 
             <div class="form">
-                <form action="">
-                    <input class="input" type="text" placeholder="Name*">
-                    <input class="input" type="email" placeholder="Email*">
-                    <textarea class="textarea input" name="Message" placeholder="Message*"></textarea>
+                <?php echo form_open('contact/send');?>
+                    <input class="input" type="text" name="name" required="required" placeholder="Name*">
+                    <input class="input" type="email" name="email" required="required" placeholder="Email*">
+                    <textarea class="textarea input" name="message" required="required" placeholder="Message*"></textarea>
                     <input class="submit" type="submit" value="send">
-                </form>
+                <?php echo form_close();?>
             </div>
         </div>
     </div>
