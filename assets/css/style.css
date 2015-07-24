@@ -290,6 +290,7 @@ div#wrapper div#main-content div#side div.content-body div.main-body .form-contr
   border-color: #54c0b0;
 }
 div#wrapper div#main-content div#side div.content-body div.main-body button {
+  margin: 0;
   border-left: 0;
   border-radius: 0;
   border-color: #54c0b0;
@@ -834,6 +835,7 @@ div#wrapper div#main-content div.about div.main-body div.name h2 {
 }
 div#wrapper div#main-content div.about div.main-body div.about-text {
   padding: 45px 0 20px 0;
+  word-break: normal;
 }
 div#wrapper div#main-content div.about div.main-body div#skills div.skills-title {
   border-bottom: 2px solid #d1d2d4;
@@ -912,6 +914,10 @@ div#wrapper div#main-content div.contact {
 div#wrapper div#main-content div.contact div.main-body {
   text-align: left;
 }
+div#wrapper div#main-content div.contact div.main-body p {
+  color: red;
+  font-weight: bold;
+}
 div#wrapper div#main-content div.contact div.main-body .name {
   text-align: left;
   border-bottom: 2px solid #d1d2d4;
@@ -930,7 +936,6 @@ div#wrapper div#main-content div.contact div.main-body .input {
 div#wrapper div#main-content div.contact div.main-body .textarea {
   max-width: 100%;
   height: 200px;
-  text-transform: capitalize;
 }
 div#wrapper div#main-content div.contact div.main-body .submit {
   border-top: 0;
