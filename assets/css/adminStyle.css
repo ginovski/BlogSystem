@@ -1,0 +1,138 @@
+/*
+Author     : Krasimir Stoyanov
+Company    : ProDevity
+Description: AdminPanel Style-Layout
+
+*/
+/* Table of Content
+==================================================
+
+#GENERAL
+#HEADER
+#MAIN CONTENT
+#FOOTER
+
+=====SECTIONS=====
+#POSTS
+#COMMENTS
+#ABOUT
+
+*/
+/* GENERAL
+   ================================================== */
+.transition {
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+@font-face {
+  font-family: 'jaapokki_enchanceregular';
+  src: url('type/jaapokkienchance-regular-webfont.eot');
+  src: url('type/jaapokkienchance-regular-webfont.eot?#iefix') format('embedded-opentype'), url('type/jaapokkienchance-regular-webfont.woff2') format('woff2'), url('type/jaapokkienchance-regular-webfont.woff') format('woff'), url('type/jaapokkienchance-regular-webfont.ttf') format('truetype'), url('type/jaapokkienchance-regular-webfont.svg#jaapokki_enchanceregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'jaapokkiregular';
+  src: url('type/jaapokki-regular-webfont.eot');
+  src: url('type/jaapokki-regular-webfont.eot?#iefix') format('embedded-opentype'), url('type/jaapokki-regular-webfont.woff2') format('woff2'), url('type/jaapokki-regular-webfont.woff') format('woff'), url('type/jaapokki-regular-webfont.ttf') format('truetype'), url('type/jaapokki-regular-webfont.svg#jaapokkiregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url('type/CenturyGothic.eot');
+  src: url('type/CenturyGothic.woff') format('woff'), url('type/CenturyGothic.ttf') format('truetype'), url('type/CenturyGothic.svg#CenturyGothic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+html,
+body {
+  background-color: #f2f2f2;
+  font-family: 'CenturyGothic';
+  font-size: 16px;
+}
+/* HEADER
+   ================================================== */
+header {
+  width: 100%;
+}
+header nav.navbar {
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+  background-color: #33495d;
+}
+header nav.navbar div.container-fluid {
+  width: 72%;
+  height: 100%;
+}
+header nav.navbar div.container-fluid a.navbar-brand {
+  padding: 1.125em;
+  color: #ffffff;
+}
+header nav.navbar div.container-fluid div.navbar-collapse li a {
+  padding: 1.125em;
+  color: #ffffff !important;
+  background-color: transparent;
+  border-bottom: 4px solid transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+header nav.navbar div.container-fluid div.navbar-collapse li a:hover,
+header nav.navbar div.container-fluid div.navbar-collapse li a:focus,
+header nav.navbar div.container-fluid div.navbar-collapse li a:active {
+  background-color: #2f394a;
+  border-color: #6dd2dc;
+}
+header nav.navbar div.container-fluid div.navbar-collapse form {
+  padding: 5px 0 0 0;
+}
+header nav.navbar div.container-fluid div.navbar-collapse form input.form-control {
+  background-color: #2f394a;
+  color: #ffffff;
+  border: 0;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 7px 7px 10px 15px;
+}
+header nav.navbar div.container-fluid div.navbar-collapse form input.form-control:focus,
+header nav.navbar div.container-fluid div.navbar-collapse form input.form-control:active,
+header nav.navbar div.container-fluid div.navbar-collapse form button:focus,
+header nav.navbar div.container-fluid div.navbar-collapse form button:active {
+  outline: 0;
+  box-shadow: none;
+}
+header nav.navbar div.container-fluid div.navbar-collapse form ::-webkit-input-placeholder {
+  color: #ffffff;
+}
+header nav.navbar div.container-fluid div.navbar-collapse form :-moz-placeholder {
+  /* Firefox 18- */
+  color: #ffffff;
+}
+header nav.navbar div.container-fluid div.navbar-collapse form ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ffffff;
+}
+header nav.navbar div.container-fluid div.navbar-collapse form :-ms-input-placeholder {
+  color: #ffffff;
+}
+header nav.navbar div.container-fluid div.navbar-collapse form button {
+  margin: 0;
+  padding: 7px 15px 7px 10px;
+  background-color: #2f394a;
+  color: #ffffff;
+  border: 0;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}

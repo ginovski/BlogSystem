@@ -88,6 +88,13 @@ Description: Style-Layout
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url('type/CenturyGothic.eot');
+  src: url('type/CenturyGothic.woff') format('woff'), url('type/CenturyGothic.ttf') format('truetype'), url('type/CenturyGothic.svg#CenturyGothic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
@@ -96,7 +103,7 @@ Description: Style-Layout
 html,
 body {
   background-color: #f2f2f2;
-  font-family: 'Century Gothic';
+  font-family: 'CenturyGothic';
   font-size: 16px;
 }
 /* HEADER

@@ -1,0 +1,179 @@
+/*
+Author     : Krasimir Stoyanov
+Company    : ProDevity
+Description: AdminPanel Style-Layout
+
+*/
+
+/* Table of Content
+==================================================
+
+#GENERAL
+#HEADER
+#MAIN CONTENT
+#FOOTER
+
+=====SECTIONS=====
+#POSTS
+#COMMENTS
+#ABOUT
+
+*/
+
+/* GENERAL
+   ================================================== */
+
+
+
+@base-width: 960px;
+
+@background-color: #f2f2f2;
+@white-color: #fff;
+
+@darkest-blue-color: #2F394A;
+@dark-blue-color: #30394A;
+@light-blue-color: #33495D;
+@sky-blue-color: #6DD2DC;
+
+.transition {
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+@font-face {
+  font-family: 'jaapokki_enchanceregular';
+  src: url('type/jaapokkienchance-regular-webfont.eot');
+  src: url('type/jaapokkienchance-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('type/jaapokkienchance-regular-webfont.woff2') format('woff2'),
+       url('type/jaapokkienchance-regular-webfont.woff') format('woff'),
+       url('type/jaapokkienchance-regular-webfont.ttf') format('truetype'),
+       url('type/jaapokkienchance-regular-webfont.svg#jaapokki_enchanceregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'jaapokkiregular';
+  src: url('type/jaapokki-regular-webfont.eot');
+  src: url('type/jaapokki-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('type/jaapokki-regular-webfont.woff2') format('woff2'),
+       url('type/jaapokki-regular-webfont.woff') format('woff'),
+       url('type/jaapokki-regular-webfont.ttf') format('truetype'),
+       url('type/jaapokki-regular-webfont.svg#jaapokkiregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url('type/CenturyGothic.eot');
+  src: url('type/CenturyGothic.woff') format('woff'),
+       url('type/CenturyGothic.ttf') format('truetype'),
+       url('type/CenturyGothic.svg#CenturyGothic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+html, body {
+  background-color: @background-color;
+  font-family: 'CenturyGothic';
+  font-size: 16px;
+}
+
+/* HEADER
+   ================================================== */
+header {
+  width: 100%;
+
+  nav.navbar {
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+    background-color: @light-blue-color;
+
+    div.container-fluid {
+      width: 72%;
+      height: 100%;
+
+      a.navbar-brand {
+        padding: 1.125em;
+        color: @white-color;
+      }
+
+      div.navbar-collapse {
+        li {
+          a {
+            padding: 1.125em;
+            color: @white-color !important;
+            background-color: transparent;
+            border-bottom: 4px solid transparent;
+
+            .transition();
+
+            &:hover, &:focus, &:active {
+              background-color: @darkest-blue-color;
+              border-color: @sky-blue-color;
+            }
+          }
+        }
+        form {
+          padding: 5px 0 0 0;
+
+          input.form-control {
+            background-color: @darkest-blue-color;
+            color: @white-color;
+            border: 0;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            padding: 7px 7px 10px 15px;
+          }
+
+          input.form-control:focus,
+          input.form-control:active,
+          button:focus,
+          button:active {
+            outline: 0;
+            box-shadow: none;
+          }
+
+          ::-webkit-input-placeholder {
+            color: @white-color;
+          }
+
+          :-moz-placeholder {
+            /* Firefox 18- */
+            color: @white-color;
+          }
+
+          ::-moz-placeholder {
+            /* Firefox 19+ */
+            color: @white-color;
+          }
+
+          :-ms-input-placeholder {
+            color: @white-color;
+          }
+
+          button {
+            margin: 0;
+            padding: 7px 15px 7px 10px;
+            background-color: @darkest-blue-color;
+            color: @white-color;
+            border: 0;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+          }
+        }
+      }
+    }
+  }
+}
