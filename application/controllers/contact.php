@@ -35,7 +35,14 @@ class Contact extends CI_Controller{
             $email = $this->input->post("email");
             $message = $this->input->post("message");
 
-            $this->load->view('formsuccess');
+            $this->load->library("email");
+
+            $this->email->from($email, $name);
+            $this->email->to("sashko.ginovski@gmail.com");
+            $this->email->subject("Blog Contact Message -> " . $name);
+            $this->email->message($message);
+
+            redirect('home');
         }
 
 
