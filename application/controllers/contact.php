@@ -17,8 +17,8 @@ class Contact extends CI_Controller{
     public function send(){
         $this->load->library('form_validation');
 
-        $this->form_validation->set_rules('name', 'Name', 'required');
-        $this->form_validation->set_rules('email', 'Email', 'required');
+        $this->form_validation->set_rules('name', 'Name', 'required|min_length[3]|max_length[20]');
+        $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
         $this->form_validation->set_rules('message', 'Message', 'required');
 
         if ($this->form_validation->run() == FALSE)

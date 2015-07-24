@@ -15,9 +15,9 @@
             <div class="form">
                 <?php echo validation_errors(); ?>
                 <?php echo form_open('contact/send');?>
-                    <input class="input" type="text" name="name" placeholder="Name*">
-                    <input class="input" type="email" name="email" placeholder="Email*">
-                    <textarea class="textarea input" name="message" placeholder="Message*"></textarea>
+                    <input class="input" type="text" name="name" value="<?php echo set_value('name'); ?>" placeholder="Name*">
+                    <input class="input" type="email" name="email" value="<?php echo set_value('email'); ?>" placeholder="Email*">
+                    <textarea class="textarea input" name="message" placeholder="Message*"><?php echo set_value('message'); ?></textarea>
                     <input class="submit" type="submit" value="send">
                 <?php echo form_close();?>
             </div>
