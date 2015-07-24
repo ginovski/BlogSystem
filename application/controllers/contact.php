@@ -15,9 +15,28 @@ class Contact extends CI_Controller{
     }
 
     public function send(){
-        $name = $this->input->post("name");
-        $email = $this->input->post("email");
-        $message = $this->input->post("message");
+        $this->load->library('form_validation');
+
+        $this->form_validation->set_rules('name', 'Name', 'required');
+        $this->form_validation->set_rules('email', 'Email', 'required');
+        $this->form_validation->set_rules('message', 'Message', 'required');
+
+        if ($this->form_validation->run() == FALSE)
+        {
+            $data['user_info'] = $this->user_model->getUserInfo()[0];
+
+            $this->load->view('partials/header', $data);
+            $this->load->view('contact/index', $data);
+            $this->load->view('partials/footer', $data);
+        }
+        else
+        {
+            $name = $this->input->post("name");
+            $email = $this->input->post("email");
+            $message = $this->input->post("message");
+
+            $this->load->view('formsuccess');
+        }
 
 
     }
