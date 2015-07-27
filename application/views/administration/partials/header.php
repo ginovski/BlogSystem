@@ -33,9 +33,10 @@
 
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="home">Posts</a></li>
-                    <li><a href="comments">Comments</a></li>
-                    <li><a href="about">About</a></li>
+                    <li><a href="<?php echo base_url().'administration/home/index'?>">Home</a></li>
+                    <li><a href="<?php echo base_url().'administration/posts/index'?>">Posts</a></li>
+                    <li><a href="<?php echo base_url().'administration/comments/index'?>">Comments</a></li>
+                    <li><a href="<?php echo base_url().'administration/about/index'?>">About</a></li>
                 </ul>
                 <div class="col-sm-3 col-md-3 pull-right">
                     <form class="navbar-form" role="search">

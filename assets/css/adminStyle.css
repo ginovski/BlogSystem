@@ -194,7 +194,12 @@ div.panel .panel-body ul li a:active {
   text-decoration: none;
   color: #30394a;
 }
+div.panel .panel-body ul li div {
+  display: inline-block;
+  max-width: 85%;
+}
 div.panel .panel-body ul li div.controls {
+  max-width: 15%;
   display: inline-block;
   float: right;
 }
