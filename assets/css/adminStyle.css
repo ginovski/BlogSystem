@@ -124,11 +124,9 @@ header nav.navbar div.container-fluid div.navbar-collapse form ::-webkit-input-p
   color: #ffffff;
 }
 header nav.navbar div.container-fluid div.navbar-collapse form :-moz-placeholder {
-  /* Firefox 18- */
   color: #ffffff;
 }
 header nav.navbar div.container-fluid div.navbar-collapse form ::-moz-placeholder {
-  /* Firefox 19+ */
   color: #ffffff;
 }
 header nav.navbar div.container-fluid div.navbar-collapse form :-ms-input-placeholder {
@@ -149,6 +147,85 @@ div#main-content {
 }
 div#main-content .container {
   width: 100%;
+}
+.home div.panel {
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  position: relative;
+}
+.home div.panel:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 25px 25px 0;
+  border-style: solid;
+  display: block;
+  width: 0;
+  border-bottom: 25px solid #3292B5;
+  border-left: 0px solid #3292B5;
+  z-index: 1;
+  color: #F1F2F6;
+}
+.home div.panel div.panel-heading {
+  color: #fff;
+  background-color: #3bafda;
+  border-color: #3bafda;
+}
+.home div.panel div.panel-heading i {
+  margin-top: 6px;
+  font-size: 3em;
+}
+.home div.panel div.panel-heading h3 {
+  margin: 10px 0;
+}
+.home div.panel div.panel-body a {
+  display: block;
+  padding: 15px;
+  background-color: #ffffff;
+  color: #3bafda;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: bold;
+  -webkit-transition: all 0.15s ease-in;
+  -moz-transition: all 0.15s ease-in;
+  -ms-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
+}
+.home div.panel div.panel-body a:hover,
+.home div.panel div.panel-body a:focus,
+.home div.panel div.panel-body a:active {
+  color: #33495d;
+  text-decoration: none;
+}
+.home div.panel-blue div.panel-heading {
+  background-color: #3bafda;
+  border-color: #3bafda;
+}
+.home div.panel-blue:before {
+  border-bottom: 25px solid #2494be;
+  border-left: 0 solid #2494be;
+}
+.home div.panel-green div.panel-heading {
+  background-color: #37bc9b;
+  border-color: #37bc9b;
+}
+.home div.panel-green:before {
+  border-bottom: 25px solid #2b957a;
+  border-left: 0 solid #2b957a;
+}
+.home div.panel-red div.panel-heading {
+  background-color: #da4453;
+  border-color: #da4453;
+}
+.home div.panel-red:before {
+  border-bottom: 25px solid #c42737;
+  border-left: 0 solid #c42737;
+}
+.home div.panel-red i {
+  padding: 25px 0;
 }
 div.panel {
   background-color: transparent;

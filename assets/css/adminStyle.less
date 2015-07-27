@@ -161,12 +161,10 @@ header {
           }
 
           :-moz-placeholder {
-            /* Firefox 18- */
             color: @white-color;
           }
 
           ::-moz-placeholder {
-            /* Firefox 19+ */
             color: @white-color;
           }
 
@@ -199,6 +197,106 @@ div#main-content {
   }
 }
 
+.home {
+  div.panel {
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    position: relative;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      border-width: 0 25px 25px 0;
+      border-style: solid;
+      display: block;
+      width: 0;
+      border-bottom: 25px solid #3292B5;
+      border-left: 0px solid #3292B5;
+      z-index: 1;
+      color: #F1F2F6;
+    }
+
+    div.panel-heading {
+      color: #fff;
+      background-color: #3bafda;
+      border-color: #3bafda;
+
+      i {
+        margin-top: 6px;
+        font-size: 3em;
+      }
+
+      h3 {
+        margin: 10px 0;
+      }
+    }
+
+    div.panel-body {
+      a {
+        display: block;
+        padding: 15px;
+        background-color: @white-color;
+        color: #3bafda;
+        text-transform: uppercase;
+        font-size: 0.9em;
+        font-weight: bold;
+
+        .fast-transition();
+
+        &:hover,
+        &:focus,
+        &:active {
+          color: @light-blue-color;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  div.panel-blue {
+    div.panel-heading {
+      background-color: #3bafda;
+      border-color: #3bafda;
+    }
+
+    &:before {
+      border-bottom: 25px solid darken(#3bafda, 10);
+      border-left: 0 solid darken(#3bafda, 10);
+    }
+  }
+
+  div.panel-green {
+    div.panel-heading {
+      background-color: #37bc9b;
+      border-color: #37bc9b;
+    }
+
+    &:before {
+      border-bottom: 25px solid darken(#37bc9b, 10);
+      border-left: 0 solid darken(#37bc9b, 10);
+    }
+  }
+
+  div.panel-red {
+    div.panel-heading {
+      background-color: #da4453;
+      border-color: #da4453;
+    }
+
+    &:before {
+      border-bottom: 25px solid darken(#da4453, 10);
+      border-left: 0 solid darken(#da4453, 10);
+    }
+
+    i {
+      padding: 25px 0;
+    }
+  }
+}
+
 div.panel {
   background-color: transparent;
   border: 0;
@@ -207,10 +305,6 @@ div.panel {
   box-shadow: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
-
-//  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
-//  -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
-//  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
 
   div.panel-heading {
     padding: 20px 30px;
