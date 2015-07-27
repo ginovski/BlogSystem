@@ -35,12 +35,23 @@ Description: AdminPanel Style-Layout
 @light-blue-color: #33495D;
 @sky-blue-color: #6DD2DC;
 
-.transition {
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -ms-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
+@white-smoke-color: #ECECEC;
+
+.fast-transition {
+  -webkit-transition: all 0.15s ease-in;
+  -moz-transition: all 0.15s ease-in;
+  -ms-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
+}
+
+// Transition function
+.slow-transition {
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 @font-face {
@@ -117,7 +128,7 @@ header {
             background-color: transparent;
             border-bottom: 4px solid transparent;
 
-            .transition();
+            .fast-transition();
 
             &:hover, &:focus, &:active {
               background-color: @darkest-blue-color;
@@ -171,6 +182,91 @@ header {
             border: 0;
             border-top-right-radius: 20px;
             border-bottom-right-radius: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// MAIN-CONTENT
+div#main-content {
+  width: 75%;
+  margin: 0 auto;
+
+  .container {
+    width: 100%;
+  }
+}
+
+div.panel {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+
+//  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
+//  -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
+//  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
+
+  div.panel-heading {
+    padding: 20px 30px;
+    background-color: #AACEF1;
+    border-radius: 0;
+    border-bottom: 3px solid darken(#AACEF1, 15%);
+
+    .panel-title {
+      color: @dark-blue-color;
+      font-weight: bold;
+    }
+  }
+
+  .panel-body {
+    padding: 0;
+    background-color: transparent;
+
+    ul {
+      li {
+        margin: 6px 0;
+        padding: 15px 30px;
+        background-color: @white-color;
+        list-style-type: none;
+
+        a {
+          display: inline-block;
+          color: @sky-blue-color;
+          font-weight: bold;
+
+          .fast-transition();
+
+          &:hover,
+          &:focus,
+          &:active {
+            text-decoration: none;
+            color: @dark-blue-color;
+          }
+        }
+
+        div.controls {
+          display: inline-block;
+          float: right;
+
+          a {
+            margin: 0 7px;
+            .slow-transition();
+
+            &:hover,
+            &:focus,
+            &:active {
+              -webkit-transform: rotate(360deg); // Safari
+              -moz-transform: rotate(360deg); // Firefox
+              -ms-transform: rotate(360deg); // IE
+              -o-transform: rotate(360deg); // Opera
+              filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0); // Internet Explorer
+            }
           }
         }
       }

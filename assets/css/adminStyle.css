@@ -20,12 +20,19 @@ Description: AdminPanel Style-Layout
 */
 /* GENERAL
    ================================================== */
-.transition {
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -ms-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
+.fast-transition {
+  -webkit-transition: all 0.15s ease-in;
+  -moz-transition: all 0.15s ease-in;
+  -ms-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
+}
+.slow-transition {
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 @font-face {
   font-family: 'jaapokki_enchanceregular';
@@ -83,11 +90,11 @@ header nav.navbar div.container-fluid div.navbar-collapse li a {
   color: #ffffff !important;
   background-color: transparent;
   border-bottom: 4px solid transparent;
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -ms-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
+  -webkit-transition: all 0.15s ease-in;
+  -moz-transition: all 0.15s ease-in;
+  -ms-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
 }
 header nav.navbar div.container-fluid div.navbar-collapse li a:hover,
 header nav.navbar div.container-fluid div.navbar-collapse li a:focus,
@@ -135,4 +142,76 @@ header nav.navbar div.container-fluid div.navbar-collapse form button {
   border: 0;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+div#main-content {
+  width: 75%;
+  margin: 0 auto;
+}
+div#main-content .container {
+  width: 100%;
+}
+div.panel {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+div.panel div.panel-heading {
+  padding: 20px 30px;
+  background-color: #AACEF1;
+  border-radius: 0;
+  border-bottom: 3px solid #68a8e6;
+}
+div.panel div.panel-heading .panel-title {
+  color: #30394a;
+  font-weight: bold;
+}
+div.panel .panel-body {
+  padding: 0;
+  background-color: transparent;
+}
+div.panel .panel-body ul li {
+  margin: 6px 0;
+  padding: 15px 30px;
+  background-color: #ffffff;
+  list-style-type: none;
+}
+div.panel .panel-body ul li a {
+  display: inline-block;
+  color: #6dd2dc;
+  font-weight: bold;
+  -webkit-transition: all 0.15s ease-in;
+  -moz-transition: all 0.15s ease-in;
+  -ms-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
+}
+div.panel .panel-body ul li a:hover,
+div.panel .panel-body ul li a:focus,
+div.panel .panel-body ul li a:active {
+  text-decoration: none;
+  color: #30394a;
+}
+div.panel .panel-body ul li div.controls {
+  display: inline-block;
+  float: right;
+}
+div.panel .panel-body ul li div.controls a {
+  margin: 0 7px;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+div.panel .panel-body ul li div.controls a:hover,
+div.panel .panel-body ul li div.controls a:focus,
+div.panel .panel-body ul li div.controls a:active {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
 }

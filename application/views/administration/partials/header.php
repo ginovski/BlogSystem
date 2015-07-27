@@ -33,9 +33,9 @@
 
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Posts</a></li>
-                    <li><a href="#">Comments</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="home">Posts</a></li>
+                    <li><a href="comments">Comments</a></li>
+                    <li><a href="about">About</a></li>
                 </ul>
                 <div class="col-sm-3 col-md-3 pull-right">
                     <form class="navbar-form" role="search">
@@ -51,4 +51,5 @@
         </div>
     </nav>
 </header>
+
 <div id="wrapper">
