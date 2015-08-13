@@ -7,18 +7,40 @@
                         <div class="wrapper">
                             <div class="opacity-overlay">
                                 <div>
-                                    <a title="Change" class="change-image" href=""><i class="glyphicon glyphicon-pencil"></i></a>
-                                    <a title="Remove" class="remove-image" href=""><i class="glyphicon glyphicon-remove"></i></a>
+                                    <a title="Change" class="change-image" href="" data-toggle="modal" data-target="#importImageModal">
+                                        <i class="glyphicon glyphicon-pencil"></i>
+                                    </a>
+                                    <a title="Remove" class="remove-image" href="">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
                                 </div>
                             </div>
 
                             <img src="http://static.comicvine.com/uploads/original/11111/111111753/2950477-gotham1.jpg" alt="Test Image">
                         </div>
 
-                        <a class="image-placeholder">
+                        <a class="image-placeholder" href="" data-toggle="modal" data-target="#importImageModal">
                             <p><i class="glyphicon glyphicon-plus"></i></p>
                             <span>Upload image</span>
                         </a>
+                    </div>
+
+                    <div class="modal fade" id="importImageModal" tabindex="-1" role="dialog" aria-labelledby="importImageModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">Import image by URL</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <input class="input" type="url" placeholder="Image URL"/>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Import</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="title">
