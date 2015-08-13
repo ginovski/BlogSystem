@@ -50,6 +50,10 @@
                     <div class="post-text">
                         <textarea class="textarea input" name="pos-text" required="required" placeholder="Post text"></textarea>
                     </div>
+
+                    <div class="read-more">
+                        <input type="submit" value="Post"/>
+                    </div>
                 </form>
             </div>
         </div>

@@ -27,7 +27,10 @@ Description: Style-Layout
   display: inline-block;
   padding: 20px;
   background-color: #54c0b0;
+  border-top: 0;
+  border-right: 0;
   border-bottom: 4px solid #18ae9a;
+  border-left: 0;
   color: #ffffff !important;
   text-transform: uppercase;
   text-decoration: none;
@@ -419,11 +422,38 @@ div#wrapper div#main-content div.content-body div.main-body div.second-post div.
 div#wrapper div#main-content div.content-body div.main-body div.second-post div.post-text {
   text-align: left;
 }
+div#wrapper div#main-content div.content-body div.main-body div.read-more input {
+  display: inline-block;
+  padding: 20px;
+  background-color: #54c0b0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 4px solid #18ae9a;
+  border-left: 0;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.875em;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -ms-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+div#wrapper div#main-content div.content-body div.main-body div.read-more input:hover,
+div#wrapper div#main-content div.content-body div.main-body div.read-more input:focus,
+div#wrapper div#main-content div.content-body div.main-body div.read-more input:active {
+  background-color: #18ae9a;
+}
 div#wrapper div#main-content div.content-body div.main-body div.read-more a {
   display: inline-block;
   padding: 20px;
   background-color: #54c0b0;
+  border-top: 0;
+  border-right: 0;
   border-bottom: 4px solid #18ae9a;
+  border-left: 0;
   color: #ffffff !important;
   text-transform: uppercase;
   text-decoration: none;
@@ -717,7 +747,10 @@ div#wrapper div#main-content div#comments div.content-body div.comments-section 
   display: inline-block;
   padding: 20px;
   background-color: #54c0b0;
+  border-top: 0;
+  border-right: 0;
   border-bottom: 4px solid #18ae9a;
+  border-left: 0;
   color: #ffffff !important;
   text-transform: uppercase;
   text-decoration: none;
@@ -798,14 +831,14 @@ div#wrapper div#main-content div.newsletter div.main-body .input {
   font-size: 0.8em;
 }
 div#wrapper div#main-content div.newsletter div.main-body .submit {
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
   margin: 0 auto;
   display: inline-block;
   padding: 20px;
   background-color: #54c0b0;
+  border-top: 0;
+  border-right: 0;
   border-bottom: 4px solid #18ae9a;
+  border-left: 0;
   color: #ffffff !important;
   text-transform: uppercase;
   text-decoration: none;
@@ -945,14 +978,14 @@ div#wrapper div#main-content div.main-body .textarea {
   height: 200px;
 }
 div#wrapper div#main-content div.main-body .submit {
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
   margin: 0 auto;
   display: inline-block;
   padding: 20px;
   background-color: #54c0b0;
+  border-top: 0;
+  border-right: 0;
   border-bottom: 4px solid #18ae9a;
+  border-left: 0;
   color: #ffffff !important;
   text-transform: uppercase;
   text-decoration: none;

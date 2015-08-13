@@ -55,19 +55,18 @@ Description: Style-Layout
     display: inline-block;
     padding: 20px;
     background-color: @light-green-color;
+    border-top: 0;
+    border-right: 0;
     border-bottom: @border-size solid @dark-green-color;
+    border-left: 0;
     color: @white-color !important;
     
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
     font-size: 0.875em;
-    
-    -webkit-transition: all 0.2s ease-in;
-    -moz-transition: all 0.2s ease-in;
-    -ms-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
+
+    .transition;
     
     &:hover, &:focus, &:active {
         background-color: @dark-green-color;
@@ -87,11 +86,7 @@ Description: Style-Layout
     font-weight: bold;
     font-size: 0.875em;
     
-    -webkit-transition: all 0.2s ease-in;
-    -moz-transition: all 0.2s ease-in;
-    -ms-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    transition: all 0.2s ease-in;
+    .transition;
     
     &:hover, &:focus, &:active {
         background-color: @dark-green-color;
@@ -549,6 +544,10 @@ div#wrapper {
                 }
                 
                 div.read-more {
+                    input {
+                        .flat-button;
+                    }
+
                     a {
                         .flat-button;
                     }
