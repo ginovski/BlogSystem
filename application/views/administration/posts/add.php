@@ -4,7 +4,7 @@
             <div class="main-body">
                 <form action="">
                     <div class="image">
-                        <div class="wrapper">
+                        <div class="wrapper hidden">
                             <div class="opacity-overlay">
                                 <div>
                                     <a title="Change" class="change-image" href="" data-toggle="modal" data-target="#importImageModal">
@@ -16,7 +16,7 @@
                                 </div>
                             </div>
 
-                            <img src="http://static.comicvine.com/uploads/original/11111/111111753/2950477-gotham1.jpg" alt="Test Image">
+                            <img class="preview-image" src="http://static.comicvine.com/uploads/original/11111/111111753/2950477-gotham1.jpg" alt="Test Image">
                         </div>
 
                         <a class="image-placeholder" href="" data-toggle="modal" data-target="#importImageModal">
@@ -33,11 +33,11 @@
                                     <h4 class="modal-title" id="myModalLabel">Import image by URL</h4>
                                 </div>
                                 <div class="modal-body">
-                                    <input class="input" type="url" placeholder="Image URL"/>
+                                    <input class="input import-img-url" type="url" placeholder="Image URL"/>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Import</button>
+                                    <button type="button" class="btn btn-primary import">Import</button>
                                 </div>
                             </div>
                         </div>

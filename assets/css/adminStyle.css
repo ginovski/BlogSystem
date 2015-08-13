@@ -326,7 +326,6 @@ div.panel .panel-body ul li div.controls a:active {
 /* ADD POST
    ================================================== */
 div#wrapper div#main-content .add-post div.main-body div.image .wrapper {
-  display: none;
   position: relative;
 }
 div#wrapper div#main-content .add-post div.main-body div.image .wrapper:hover .opacity-overlay {
