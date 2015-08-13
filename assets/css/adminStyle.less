@@ -54,6 +54,14 @@ Description: AdminPanel Style-Layout
   transition: all 0.3s ease-in;
 }
 
+.rotate(@value) {
+  -webkit-transform: rotate(@value);
+  -moz-transform: rotate(@value);
+  -ms-transform: rotate(@value);
+  -o-transform: rotate(@value);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation = 0);
+}
+
 @font-face {
   font-family: 'jaapokki_enchanceregular';
   src: url('type/jaapokkienchance-regular-webfont.eot');
@@ -98,6 +106,18 @@ html, body {
   background-color: @background-color;
   font-family: 'CenturyGothic';
   font-size: 16px;
+}
+
+a.add {
+  color: @white-color;
+
+  .fast-transition();
+
+  &:hover,
+  &:focus,
+  &:active {
+    .rotate(180deg);
+  }
 }
 
 /* HEADER
@@ -361,11 +381,7 @@ div.panel {
             &:hover,
             &:focus,
             &:active {
-              -webkit-transform: rotate(360deg); // Safari
-              -moz-transform: rotate(360deg); // Firefox
-              -ms-transform: rotate(360deg); // IE
-              -o-transform: rotate(360deg); // Opera
-              filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0); // Internet Explorer
+              .rotate(360deg);
             }
           }
         }

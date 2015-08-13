@@ -66,6 +66,23 @@ body {
   font-family: 'CenturyGothic';
   font-size: 16px;
 }
+a.add {
+  color: #ffffff;
+  -webkit-transition: all 0.15s ease-in;
+  -moz-transition: all 0.15s ease-in;
+  -ms-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
+}
+a.add:hover,
+a.add:focus,
+a.add:active {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+}
 /* HEADER
    ================================================== */
 header {

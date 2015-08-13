@@ -12,7 +12,7 @@
                         </div>
                         <div class="controls">
                             <a title="Edit" href=""><i class="glyphicon glyphicon-pencil"></i></a>
-                            <a title="Remove" href=""><i class="glyphicon glyphicon-ok"></i></a>
+                            <a title="Approve" href=""><i class="glyphicon glyphicon-ok"></i></a>
                             <a title="Remove" href=""><i class="glyphicon glyphicon-remove"></i></a>
                         </div>
                     </li>
@@ -22,7 +22,7 @@
                         </div>
                         <div class="controls">
                             <a title="Edit" href=""><i class="glyphicon glyphicon-pencil"></i></a>
-                            <a title="Remove" href=""><i class="glyphicon glyphicon-ok"></i></a>
+                            <a title="Approve" href=""><i class="glyphicon glyphicon-ok"></i></a>
                             <a title="Remove" href=""><i class="glyphicon glyphicon-remove"></i></a>
                         </div>
                     </li>
@@ -32,7 +32,7 @@
                         </div>
                         <div class="controls">
                             <a title="Edit" href=""><i class="glyphicon glyphicon-pencil"></i></a>
-                            <a title="Remove" href=""><i class="glyphicon glyphicon-ok"></i></a>
+                            <a title="Approve" href=""><i class="glyphicon glyphicon-ok"></i></a>
                             <a title="Remove" href=""><i class="glyphicon glyphicon-remove"></i></a>
                         </div>
                     </li>
@@ -42,7 +42,7 @@
                         </div>
                         <div class="controls">
                             <a title="Edit" href=""><i class="glyphicon glyphicon-pencil"></i></a>
-                            <a title="Remove" href=""><i class="glyphicon glyphicon-ok"></i></a>
+                            <a title="Approve" href=""><i class="glyphicon glyphicon-ok"></i></a>
                             <a title="Remove" href=""><i class="glyphicon glyphicon-remove"></i></a>
                         </div>
                     </li>
@@ -52,7 +52,7 @@
                         </div>
                         <div class="controls">
                             <a title="Edit" href=""><i class="glyphicon glyphicon-pencil"></i></a>
-                            <a title="Remove" href=""><i class="glyphicon glyphicon-ok"></i></a>
+                            <a title="Approve" href=""><i class="glyphicon glyphicon-ok"></i></a>
                             <a title="Remove" href=""><i class="glyphicon glyphicon-remove"></i></a>
                         </div>
                     </li>

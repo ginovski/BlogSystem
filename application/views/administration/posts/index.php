@@ -2,7 +2,12 @@
     <div class="container">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Posts</h3>
+                <h3 class="panel-title">
+                    Posts
+                    <a title="Add" class="pull-right add" href="<?php echo base_url().'administration/posts/add'?>">
+                        <i class="glyphicon glyphicon-plus"></i>
+                    </a>
+                </h3>
             </div>
             <div class="panel-body">
                 <ul>
