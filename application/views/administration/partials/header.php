@@ -6,6 +6,7 @@
     <title></title>
     <link rel="stylesheet" href="<?php echo base_url().'assets/css/bootstrap.css'?>" >
     <link rel="stylesheet" href="<?php echo base_url().'assets/css/font-awesome.min.css'?>" >
+    <link rel="stylesheet" href="<?php echo base_url().'assets/css/style.css'?>" >
     <link rel="stylesheet" href="<?php echo base_url().'assets/css/adminStyle.css'?>" >
 
     <link rel="icon" href="<?php echo base_url().'assets/images/favicon/favicon.ico'?>">

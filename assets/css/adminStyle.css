@@ -59,6 +59,8 @@ Description: AdminPanel Style-Layout
   margin: 0;
   padding: 0;
   outline: 0;
+  font-family: 'CenturyGothic';
+  font-size: 16px;
 }
 html,
 body {
@@ -90,6 +92,7 @@ header {
 }
 header nav.navbar {
   width: 100%;
+  height: auto;
   border: 0;
   border-radius: 0;
   background-color: #33495d;
@@ -98,8 +101,11 @@ header nav.navbar div.container-fluid {
   width: 72%;
   height: 100%;
 }
-header nav.navbar div.container-fluid a.navbar-brand {
+header nav.navbar div.container-fluid div.navbar-header a.navbar-brand {
   padding: 1.125em;
+  height: auto;
+  font-size: 1em;
+  text-transform: none;
   color: #ffffff;
 }
 header nav.navbar div.container-fluid div.navbar-collapse li a {
@@ -158,11 +164,11 @@ header nav.navbar div.container-fluid div.navbar-collapse form button {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
-div#main-content {
+div#wrapper div#main-content {
   width: 75%;
   margin: 0 auto;
 }
-div#main-content .container {
+div#wrapper div#main-content .container {
   width: 100%;
 }
 .home div.panel {
