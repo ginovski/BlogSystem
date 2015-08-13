@@ -15,6 +15,7 @@ Description: AdminPanel Style-Layout
 
 =====SECTIONS=====
 #POSTS
+#ADD POST
 #COMMENTS
 #ABOUT
 
@@ -36,6 +37,9 @@ Description: AdminPanel Style-Layout
 @sky-blue-color: #6DD2DC;
 
 @white-smoke-color: #ECECEC;
+
+@light-post-color: #c1bfbf;
+@dark-post-color: #636467;
 
 .fast-transition {
   -webkit-transition: all 0.15s ease-in;
@@ -215,7 +219,9 @@ header {
   }
 }
 
-// MAIN-CONTENT
+/* MAIN CONTENT
+   ================================================== */
+
 div#wrapper {
   div#main-content {
     width: 75%;
@@ -394,6 +400,108 @@ div.panel {
               .rotate(360deg);
             }
           }
+        }
+      }
+    }
+  }
+}
+
+/* ADD POST
+   ================================================== */
+
+div#wrapper {
+  div#main-content {
+    div.main-body {
+      div.image {
+        .slow-transition();
+
+        &:hover {
+          .opacity-overlay {
+            display: block;
+          }
+        }
+
+        .wrapper {
+          position: relative;
+        }
+
+        .opacity-overlay {
+          display: none;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.75);
+
+          position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+
+          p {
+            margin: 0;
+            width: 100%;
+            font-size: 1.7em;
+            position: absolute;
+            top: 50%;
+
+            a {
+              &:hover,
+              &:focus,
+              &:active {
+                i {
+                  .rotate(360deg);
+                }
+              }
+
+              i {
+                margin: 0 10px;
+                font-size: 1.7em;
+                color: @white-color;
+
+                .slow-transition();
+              }
+            }
+          }
+        }
+      }
+
+      .input {
+        background-color: transparent;
+        border: 3px solid @background-color;
+        text-align: center;
+
+        .fast-transition();
+
+        &:active,
+        &:focus {
+          outline: 0;
+          border-color: @light-blue-color;
+        }
+      }
+
+      a.image-placeholder {
+        display: none;
+        padding: 100px 0;
+        width: 100%;
+        text-align: center;
+        color: @light-post-color;
+        border: 3px dashed @background-color;
+        border-radius: 15px;
+
+        .fast-transition();
+
+        &:hover,
+        &:focus,
+        &:active {
+          outline: 0;
+          text-decoration: none;
+          color: @dark-post-color;
+          cursor: pointer;
+        }
+
+        p i,
+        span {
+          font-size: 1.7em;
+          font-weight: 600;
         }
       }
     }

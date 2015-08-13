@@ -14,6 +14,7 @@ Description: AdminPanel Style-Layout
 
 =====SECTIONS=====
 #POSTS
+#ADD POST
 #COMMENTS
 #ABOUT
 
@@ -164,6 +165,8 @@ header nav.navbar div.container-fluid div.navbar-collapse form button {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
+/* MAIN CONTENT
+   ================================================== */
 div#wrapper div#main-content {
   width: 75%;
   margin: 0 auto;
@@ -319,4 +322,97 @@ div.panel .panel-body ul li div.controls a:active {
   -ms-transform: rotate(360deg);
   -o-transform: rotate(360deg);
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+}
+/* ADD POST
+   ================================================== */
+div#wrapper div#main-content div.main-body div.image {
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+div#wrapper div#main-content div.main-body div.image:hover .opacity-overlay {
+  display: block;
+}
+div#wrapper div#main-content div.main-body div.image .wrapper {
+  position: relative;
+}
+div#wrapper div#main-content div.main-body div.image .opacity-overlay {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+div#wrapper div#main-content div.main-body div.image .opacity-overlay p {
+  margin: 0;
+  width: 100%;
+  font-size: 1.7em;
+  position: absolute;
+  top: 50%;
+}
+div#wrapper div#main-content div.main-body div.image .opacity-overlay p a:hover i,
+div#wrapper div#main-content div.main-body div.image .opacity-overlay p a:focus i,
+div#wrapper div#main-content div.main-body div.image .opacity-overlay p a:active i {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+}
+div#wrapper div#main-content div.main-body div.image .opacity-overlay p a i {
+  margin: 0 10px;
+  font-size: 1.7em;
+  color: #ffffff;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+div#wrapper div#main-content div.main-body .input {
+  background-color: transparent;
+  border: 3px solid #f2f2f2;
+  text-align: center;
+  -webkit-transition: all 0.15s ease-in;
+  -moz-transition: all 0.15s ease-in;
+  -ms-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
+}
+div#wrapper div#main-content div.main-body .input:active,
+div#wrapper div#main-content div.main-body .input:focus {
+  outline: 0;
+  border-color: #33495d;
+}
+div#wrapper div#main-content div.main-body a.image-placeholder {
+  display: none;
+  padding: 100px 0;
+  width: 100%;
+  text-align: center;
+  color: #c1bfbf;
+  border: 3px dashed #f2f2f2;
+  border-radius: 15px;
+  -webkit-transition: all 0.15s ease-in;
+  -moz-transition: all 0.15s ease-in;
+  -ms-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
+}
+div#wrapper div#main-content div.main-body a.image-placeholder:hover,
+div#wrapper div#main-content div.main-body a.image-placeholder:focus,
+div#wrapper div#main-content div.main-body a.image-placeholder:active {
+  outline: 0;
+  text-decoration: none;
+  color: #636467;
+  cursor: pointer;
+}
+div#wrapper div#main-content div.main-body a.image-placeholder p i,
+div#wrapper div#main-content div.main-body a.image-placeholder span {
+  font-size: 1.7em;
+  font-weight: 600;
 }
