@@ -33,7 +33,7 @@
                                     <h4 class="modal-title" id="myModalLabel">Import image by URL</h4>
                                 </div>
                                 <div class="modal-body">
-                                    <input class="input import-img-url" type="url" placeholder="Image URL"/>
+                                    <input class="input import-img-url" name="post-image-url" type="url" placeholder="Image URL"/>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -48,7 +48,7 @@
                     </div>
 
                     <div class="post-text">
-                        <textarea class="textarea input" name="pos-text" required="required" placeholder="Post text"></textarea>
+                        <textarea class="textarea input" name="post-text" required="required" placeholder="Post text"></textarea>
                     </div>
 
                     <div class="read-more">

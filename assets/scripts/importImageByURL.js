@@ -12,7 +12,6 @@ $(document).ready(function () {
         $buttonClassImport.on('click', function () {
             $previewImage.attr('src', $importImageURL.val());
             $(this).attr('data-dismiss', 'modal');
-            $importImageURL.val('');
 
             $divClassWrapper.removeClass('hidden');
             $imagePlaceholder.addClass('hidden');
