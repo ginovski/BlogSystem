@@ -68,7 +68,6 @@
                                 <br>
                                 <small class="when"><?php echo $comment['date']?></small>
                                 <br>
-                                <a href="#write-a-comment">Reply</a>
                             </div>
 
                             <div class="user-comment col-sm-9 col-xs-12 text-left">
