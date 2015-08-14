@@ -411,6 +411,61 @@ div.panel {
 
 div#wrapper {
   div#main-content {
+    div.content-body {
+      div.main-body {
+        div.title {
+          padding: 0;
+        }
+      }
+    }
+
+    button.btn {
+      padding: 6px 20px;
+      background-color: transparent;
+      color: darken(@light-post-color, 20%);
+      border: 3px solid @background-color;
+      border-radius: 0;
+
+      .fast-transition();
+
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: transparent;
+        border-color: @light-blue-color;
+      }
+    }
+
+    .category-dropdown-menu {
+      padding: 0;
+      border: 3px solid @light-blue-color;
+      border-radius: 0;
+
+      left: 50%;
+      right: auto;
+      text-align: center;
+      transform: translate(-50%, 0);
+
+      -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.25);
+      -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,0.25);
+      box-shadow: 0 0 5px 0 rgba(0,0,0,0.25);
+
+      li {
+        a {
+          color: darken(@light-post-color, 20%);
+
+          .fast-transition();
+
+          &:hover,
+          &:focus,
+          &:active {
+            background-color: @light-blue-color;
+            color: @white-color;
+          }
+        }
+      }
+    }
+
     .add-post {
       div.main-body {
         div.image {

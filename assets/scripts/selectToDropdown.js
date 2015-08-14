@@ -12,7 +12,8 @@ $(document).ready(function () {
 
         $categorySelect.addClass('hidden');
         $categoryDropdownDiv.addClass('dropdown')
-            .css('display', 'inline-block');
+            .css('display', 'inline-block')
+            .css('margin-bottom', '20px');
 
         $toggleButton.addClass('btn')
             .addClass('btn-default')
@@ -28,6 +29,7 @@ $(document).ready(function () {
         $caret.appendTo($toggleButton);
 
         $dropdownUl.addClass('dropdown-menu')
+            .addClass('category-dropdown-menu')
             .attr('aria-labelledby', 'category-select-dropdown');
 
         for (i = 0, len = $selectChildren.length; i < len; i += 1) {

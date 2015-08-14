@@ -325,6 +325,53 @@ div.panel .panel-body ul li div.controls a:active {
 }
 /* ADD POST
    ================================================== */
+div#wrapper div#main-content div.content-body div.main-body div.title {
+  padding: 0;
+}
+div#wrapper div#main-content button.btn {
+  padding: 6px 20px;
+  background-color: transparent;
+  color: #8f8b8b;
+  border: 3px solid #f2f2f2;
+  border-radius: 0;
+  -webkit-transition: all 0.15s ease-in;
+  -moz-transition: all 0.15s ease-in;
+  -ms-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
+}
+div#wrapper div#main-content button.btn:hover,
+div#wrapper div#main-content button.btn:focus,
+div#wrapper div#main-content button.btn:active {
+  background-color: transparent;
+  border-color: #33495d;
+}
+div#wrapper div#main-content .category-dropdown-menu {
+  padding: 0;
+  border: 3px solid #33495d;
+  border-radius: 0;
+  left: 50%;
+  right: auto;
+  text-align: center;
+  transform: translate(-50%, 0);
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+}
+div#wrapper div#main-content .category-dropdown-menu li a {
+  color: #8f8b8b;
+  -webkit-transition: all 0.15s ease-in;
+  -moz-transition: all 0.15s ease-in;
+  -ms-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
+}
+div#wrapper div#main-content .category-dropdown-menu li a:hover,
+div#wrapper div#main-content .category-dropdown-menu li a:focus,
+div#wrapper div#main-content .category-dropdown-menu li a:active {
+  background-color: #33495d;
+  color: #ffffff;
+}
 div#wrapper div#main-content .add-post div.main-body div.image .wrapper {
   position: relative;
 }
