@@ -47,6 +47,16 @@
                         <input class="input" type="text" name="post-title" required="required" value="" placeholder="Post title">
                     </div>
 
+                    <div class="category">
+                        <select name="category" id="category">
+                            <option value="UI & UX">UI & UX</option>
+                            <option value="Graphic Design">Graphic Design</option>
+                            <option value="Illustration">Illustration</option>
+                            <option value="Web Design">Web Design</option>
+                            <option value="General">General</option>
+                        </select>
+                    </div>
+
                     <div class="post-text">
                         <textarea class="textarea input" name="post-text" required="required" placeholder="Post text"></textarea>
                     </div>
