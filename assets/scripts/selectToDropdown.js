@@ -26,7 +26,8 @@ $(document).ready(function () {
             .attr('aria-expanded', 'true');
 
         if ($categorySelect.attr('value')) {
-            $toggleButton.html($categorySelect.attr('value') + ' ')
+            var $optionWithInitialValue = $('option[value="' + $categorySelect.attr('value') + '"]');
+            $toggleButton.html($optionWithInitialValue.html()    + ' ')
                 .attr('data-value', $categorySelect.attr('value'));
         }
         else {
