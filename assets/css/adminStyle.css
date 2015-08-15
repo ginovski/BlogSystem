@@ -17,6 +17,7 @@ Description: AdminPanel Style-Layout
 #ADD POST
 #COMMENTS
 #ABOUT
+#LOG IN
 
 */
 /* GENERAL
@@ -465,4 +466,22 @@ div#wrapper div#main-content .add-post div.main-body a.image-placeholder p i,
 div#wrapper div#main-content .add-post div.main-body a.image-placeholder span {
   font-size: 1.7em;
   font-weight: 600;
+}
+/* LOG IN
+   ================================================== */
+.log-in {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.log-in #main-content {
+  width: 90%;
+  display: table-cell;
+  vertical-align: middle;
+}
+.log-in #main-content .articles {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
