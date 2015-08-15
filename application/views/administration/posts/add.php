@@ -15,8 +15,6 @@
                                     </a>
                                 </div>
                             </div>
-
-                            <img class="preview-image" src="http://static.comicvine.com/uploads/original/11111/111111753/2950477-gotham1.jpg" alt="Test Image">
                         </div>
 
                         <a class="image-placeholder" href="" data-toggle="modal" data-target="#importImageModal">

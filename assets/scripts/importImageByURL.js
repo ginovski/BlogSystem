@@ -6,11 +6,16 @@ $(document).ready(function () {
         $previewImage = $('.preview-image'),
         $imagePlaceholder = $('a.image-placeholder'),
         $buttonClassImport = $('button.import'),
-        $removeImageLink = $('a.remove-image');
+        $removeImageLink = $('a.remove-image'),
+        $newImage = $('<img/>');
 
     if ($divClassWrapper.hasClass('hidden')) {
         $buttonClassImport.on('click', function () {
-            $previewImage.attr('src', $importImageURL.val());
+            $newImage.addClass('preview-image')
+                .attr('src', $importImageURL.val())
+                .attr('alt', 'Imported image by URL');
+            $newImage.appendTo('.wrapper');
+
             $(this).attr('data-dismiss', 'modal');
 
             $divClassWrapper.removeClass('hidden');
@@ -19,6 +24,7 @@ $(document).ready(function () {
     }
 
     $removeImageLink.on('click', function () {
+        $('.preview-image').remove();
         $imagePlaceholder.removeClass('hidden');
         $divClassWrapper.addClass('hidden');
     });
