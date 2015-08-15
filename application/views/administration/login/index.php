@@ -25,7 +25,7 @@
                 <div class="main-body">
                     <form action="">
                         <input class="input" type="text" name="username" required="required" value="" placeholder="Username"/>
-                        <input class="input" type="text" name="password" required="required" value="" placeholder="Password"/>
+                        <input class="input" type="password" name="password" required="required" value="" placeholder="Password"/>
                         <div class="read-more">
                             <input type="submit" value="Log in"/>
                         </div>
