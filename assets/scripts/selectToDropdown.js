@@ -23,8 +23,15 @@ $(document).ready(function () {
             .attr('id', 'category-select-dropdown')
             .attr('data-toggle', 'dropdown')
             .attr('aria-haspopup', 'true')
-            .attr('aria-expanded', 'true')
-            .html('Select a category ');
+            .attr('aria-expanded', 'true');
+
+        if ($categorySelect.attr('value')) {
+            $toggleButton.html($categorySelect.attr('value') + ' ')
+                .attr('data-value', $categorySelect.attr('value'));
+        }
+        else {
+            $toggleButton.html('Select a category ');
+        }
 
         $caret.addClass('caret');
         $caret.appendTo($toggleButton);

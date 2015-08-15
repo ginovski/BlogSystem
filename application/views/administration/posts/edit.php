@@ -46,7 +46,7 @@
                     </div>
 
                     <div class="category">
-                        <select name="category" id="category">
+                        <select name="category" id="category" value="Illustration">
                             <option value="UI & UX">UI & UX</option>
                             <option value="Graphic Design">Graphic Design</option>
                             <option value="Illustration">Illustration</option>
