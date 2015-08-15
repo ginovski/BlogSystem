@@ -97,5 +97,31 @@
             </div>
         </div>
     <?php endforeach;?>
+
+        <div id="paging" class="row">
+            <div class="left-arrow col-sm-1 col-xs-2">
+                <div class="previous">
+                    <a href=""><i class="fa fa-arrow-left"></i></a>
+                </div>
+            </div>
+
+            <div class="pages col-sm-10 col-xs-8">
+                <div class="pages-numbers">
+                    <ul>
+                        <li><a href="">1</a></li>
+                        <li><a href="">2</a></li>
+                        <li><a href="">3</a></li>
+                        <li><a href="">4</a></li>
+                        <li><a href="">5</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="right-arrow col-sm-1 col-xs-2">
+                <div class="next">
+                    <a href=""><i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
