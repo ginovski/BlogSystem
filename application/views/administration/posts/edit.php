@@ -42,7 +42,7 @@
                     </div>
 
                     <div class="title">
-                        <input class="input" type="text" name="post-title" required="required" value="" placeholder="Post title">
+                        <input class="input" type="text" name="post-title" required="required" value="Post title">
                     </div>
 
                     <div class="category">
@@ -56,7 +56,7 @@
                     </div>
 
                     <div class="post-text">
-                        <textarea class="textarea input" name="post-text" required="required" placeholder="Post text"></textarea>
+                        <textarea class="textarea input" name="post-text" required="required">Post text</textarea>
                     </div>
 
                     <div class="read-more">
