@@ -471,8 +471,8 @@ div#wrapper div#main-content div.content-body div.main-body div.read-more a:acti
   background-color: #18ae9a;
 }
 div#wrapper div#main-content div#paging {
-  width: 92%;
-  margin: 0 auto;
+  width: 70%;
+  margin: 0;
   padding-bottom: 45px;
 }
 div#wrapper div#main-content div#paging div.left-arrow {
@@ -565,6 +565,11 @@ div#wrapper div#main-content div#paging div.right-arrow a:active {
   background-color: #18ae9a;
   outline: 0;
 }
+@media all and (max-width: 50em) {
+  div#wrapper div#main-content div#paging {
+    margin: 0 auto;
+  }
+}
 @media all and (max-width: 43.75em) {
   div#wrapper div#main-content {
     width: 90%;
@@ -585,6 +590,9 @@ div#wrapper div#main-content div#paging div.right-arrow a:active {
     display: block;
     float: none;
     margin: 0 auto;
+  }
+  div#wrapper div#main-content div#paging {
+    width: 90%;
   }
   div#wrapper div#main-content div#paging .left-arrow a {
     padding: 5px 10px;

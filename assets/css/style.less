@@ -556,8 +556,8 @@ div#wrapper {
         }
         
         div#paging {
-            width: 92%;
-            margin: 0 auto;
+            width: 70%;
+            margin: 0;
             padding-bottom: 45px;
             
             div.left-arrow {
@@ -599,6 +599,13 @@ div#wrapper {
                     .flat-paging;
                 }
             }
+
+            @media all and (max-width: 50em)
+            {
+                & {
+                    margin: 0 auto;
+                }
+            }
         }
     }
     
@@ -632,6 +639,8 @@ div#wrapper {
             }
             
             div#paging {
+                width: 90%;
+
                 .left-arrow {
                     a {
                         padding: 5px 10px;
