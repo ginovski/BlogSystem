@@ -18,6 +18,7 @@ $(document).ready(function () {
         $toggleButton.addClass('btn')
             .addClass('btn-default')
             .addClass('dropdown-toggle')
+            .addClass('category-button')
             .attr('type', 'button')
             .attr('id', 'category-select-dropdown')
             .attr('data-toggle', 'dropdown')

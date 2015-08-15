@@ -328,7 +328,7 @@ div.panel .panel-body ul li div.controls a:active {
 div#wrapper div#main-content div.content-body div.main-body div.title {
   padding: 0;
 }
-div#wrapper div#main-content button.btn {
+div#wrapper div#main-content button.category-button {
   padding: 6px 20px;
   background-color: transparent;
   color: #8f8b8b;
@@ -340,9 +340,9 @@ div#wrapper div#main-content button.btn {
   -o-transition: all 0.15s ease-in;
   transition: all 0.15s ease-in;
 }
-div#wrapper div#main-content button.btn:hover,
-div#wrapper div#main-content button.btn:focus,
-div#wrapper div#main-content button.btn:active {
+div#wrapper div#main-content button.category-button:hover,
+div#wrapper div#main-content button.category-button:focus,
+div#wrapper div#main-content button.category-button:active {
   background-color: transparent;
   border-color: #33495d;
 }
