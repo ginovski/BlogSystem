@@ -54,6 +54,8 @@ $(document).ready(function () {
             var $this = $(this),
                 $dataValue = $this.attr('data-value');
             $categorySelect.val($dataValue);
+            $toggleButton.html($this.html() + ' ');
+            $caret.appendTo($toggleButton);
         });
     }
 
