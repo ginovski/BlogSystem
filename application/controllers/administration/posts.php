@@ -12,4 +12,10 @@ class Posts extends CI_Controller{
         $this->load->view('administration/posts/add');
         $this->load->view('administration/partials/footer');
     }
+
+    public function edit(){
+        $this->load->view('administration/partials/header');
+        $this->load->view('administration/posts/edit');
+        $this->load->view('administration/partials/footer');
+    }
 }
