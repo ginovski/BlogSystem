@@ -87,6 +87,9 @@ a.add:active {
   -o-transform: rotate(180deg);
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
 }
+a.green-color {
+  color: #54c0b0;
+}
 input.edit-input {
   width: 100%;
   display: block;

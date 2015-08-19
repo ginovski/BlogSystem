@@ -13,7 +13,12 @@
 
                     <div id="skills">
                         <div class="skills-title">
-                            <h2>Skills</h2>
+                            <h2>
+                                Skills
+                                <a title="Add" class="pull-right add green-color" href="">
+                                    <i class="glyphicon glyphicon-plus"></i>
+                                </a>
+                            </h2>
                         </div>
 
                         <div class="skills row">
@@ -173,7 +178,12 @@
 
                     <div id="skills">
                         <div class="skills-title">
-                            <h2>Projects</h2>
+                            <h2>
+                                Projects
+                                <a title="Add" class="pull-right add green-color" href="">
+                                    <i class="glyphicon glyphicon-plus"></i>
+                                </a>
+                            </h2>
                         </div>
 
                         <div class="portfolio row">
@@ -198,7 +208,12 @@
 
                     <div id="skills">
                         <div class="skills-title">
-                            <h2>Certificates</h2>
+                            <h2>
+                                Certificates
+                                <a title="Add" class="pull-right add green-color" href="">
+                                    <i class="glyphicon glyphicon-plus"></i>
+                                </a>
+                            </h2>
                         </div>
 
                         <div class="portfolio row">
@@ -212,7 +227,12 @@
 
                     <div id="skills">
                         <div class="skills-title">
-                            <h2>Languages</h2>
+                            <h2>
+                                Languages
+                                <a title="Add" class="pull-right add green-color" href="">
+                                    <i class="glyphicon glyphicon-plus"></i>
+                                </a>
+                            </h2>
                         </div>
 
                         <div class="portfolio row">
@@ -236,7 +256,12 @@
 
                     <div id="skills">
                         <div class="skills-title">
-                            <h2>Education</h2>
+                            <h2>
+                                Education
+                                <a title="Add" class="pull-right add green-color" href="">
+                                    <i class="glyphicon glyphicon-plus"></i>
+                                </a>
+                            </h2>
                         </div>
 
                         <div class="portfolio row">
