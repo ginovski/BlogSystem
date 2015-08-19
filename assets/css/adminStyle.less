@@ -124,12 +124,20 @@ a.add {
   &:hover,
   &:focus,
   &:active {
+    cursor: pointer;
     .rotate(180deg);
   }
 }
 
 a.green-color {
   color: @light-green-color;
+}
+
+a.absolute {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1000;
 }
 
 input.edit-input {

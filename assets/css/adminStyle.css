@@ -81,6 +81,7 @@ a.add {
 a.add:hover,
 a.add:focus,
 a.add:active {
+  cursor: pointer;
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
@@ -89,6 +90,12 @@ a.add:active {
 }
 a.green-color {
   color: #54c0b0;
+}
+a.absolute {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1000;
 }
 input.edit-input {
   width: 100%;

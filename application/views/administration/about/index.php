@@ -15,7 +15,7 @@
                         <div class="skills-title">
                             <h2>
                                 Skills
-                                <a title="Add" class="pull-right add green-color" href="">
+                                <a title="Add" class="pull-right add green-color">
                                     <i class="glyphicon glyphicon-plus"></i>
                                 </a>
                             </h2>
@@ -23,8 +23,17 @@
 
                         <div class="skills row">
                             <div class="col-sm-6 col-xs-12 professional">
-                                <small>Professional</small>
+                                <small>
+                                    Professional
+                                    <a title="Add" class="pull-right add green-color">
+                                        <i class="glyphicon glyphicon-plus"></i>
+                                    </a>
+                                </small>
                                 <div class="col-sm-12">
+                                    <a title="Remove" class="pull-right add remove green-color absolute">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
+
                                     <div class="col-sm-8 col-xs-12 skill-title">
                                         <input class="edit-input small" name="skill-name" value="C#" type="text"/>
                                     </div>
@@ -37,6 +46,10 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-12">
+                                    <a title="Remove" class="pull-right add remove green-color absolute">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
+
                                     <div class="col-sm-8 col-xs-12 skill-title">
                                         <input class="edit-input small" name="skill-name" value="JavaScript" type="text"/>
                                     </div>
@@ -49,6 +62,10 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-12">
+                                    <a title="Remove" class="pull-right add remove green-color absolute">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
+
                                     <div class="col-sm-8 col-xs-12 skill-title">
                                         <input class="edit-input small" name="skill-name" value="PHP" type="text"/>
                                     </div>
@@ -61,6 +78,10 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-12">
+                                    <a title="Remove" class="pull-right add remove green-color absolute">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
+
                                     <div class="col-sm-8 col-xs-12 skill-title">
                                         <input class="edit-input small" name="skill-name" value="ASP.NET" type="text"/>
                                     </div>
@@ -73,6 +94,10 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-12">
+                                    <a title="Remove" class="pull-right add remove green-color absolute">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
+
                                     <div class="col-sm-8 col-xs-12 skill-title">
                                         <input class="edit-input small" name="skill-name" value="MS Office" type="text"/>
                                     </div>
@@ -85,6 +110,10 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-12">
+                                    <a title="Remove" class="pull-right add remove green-color absolute">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
+
                                     <div class="col-sm-8 col-xs-12 skill-title">
                                         <input class="edit-input small" name="skill-name" value="C++" type="text"/>
                                     </div>
@@ -97,6 +126,10 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-12">
+                                    <a title="Remove" class="pull-right add remove green-color absolute">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
+
                                     <div class="col-sm-8 col-xs-12 skill-title">
                                         <input class="edit-input small" name="skill-name" value="Java" type="text"/>
                                     </div>
@@ -111,8 +144,17 @@
                             </div>
     
                             <div class="col-sm-6 col-xs-12 personal">
-                                <small>Personal</small>
+                                <small>
+                                    Personal
+                                    <a title="Add" class="pull-right add green-color">
+                                        <i class="glyphicon glyphicon-plus"></i>
+                                    </a>
+                                </small>
                                 <div class="col-sm-12">
+                                    <a title="Remove" class="pull-right add remove green-color absolute">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
+
                                     <div class="col-sm-8 col-xs-12 skill-title">
                                         <input class="edit-input small" name="skill-name" value="Communication" type="text"/>
                                     </div>
@@ -125,6 +167,10 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-12">
+                                    <a title="Remove" class="pull-right add remove green-color absolute">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
+
                                     <div class="col-sm-8 col-xs-12 skill-title">
                                         <input class="edit-input small" name="skill-name" value="Creativity" type="text"/>
                                     </div>
@@ -137,6 +183,10 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-12">
+                                    <a title="Remove" class="pull-right add remove green-color absolute">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
+
                                     <div class="col-sm-8 col-xs-12 skill-title">
                                         <input class="edit-input small" name="skill-name" value="Teamwork" type="text"/>
                                     </div>
@@ -149,6 +199,10 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-12">
+                                    <a title="Remove" class="pull-right add remove green-color absolute">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
+
                                     <div class="col-sm-8 col-xs-12 skill-title">
                                         <input class="edit-input small" name="skill-name" value="Leadership" type="text"/>
                                     </div>
@@ -161,6 +215,10 @@
                                     </div>
                                 </div>
                                 <div class="col-sm-12">
+                                    <a title="Remove" class="pull-right add remove green-color absolute">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
+
                                     <div class="col-sm-8 col-xs-12 skill-title">
                                         <input class="edit-input small" name="skill-name" value="Organisation" type="text"/>
                                     </div>
@@ -180,7 +238,7 @@
                         <div class="skills-title">
                             <h2>
                                 Projects
-                                <a title="Add" class="pull-right add green-color" href="">
+                                <a title="Add" class="pull-right add green-color">
                                     <i class="glyphicon glyphicon-plus"></i>
                                 </a>
                             </h2>
@@ -189,7 +247,7 @@
                         <div class="portfolio row">
                             <div class="col-md-12">
                                 <div class="portfolio-data">
-                                    <a href="">[Project Title]</a>
+                                    <a>[Project Title]</a>
                                     <small>(date)</small>
 
                                     <div>
@@ -210,7 +268,7 @@
                         <div class="skills-title">
                             <h2>
                                 Certificates
-                                <a title="Add" class="pull-right add green-color" href="">
+                                <a title="Add" class="pull-right add green-color">
                                     <i class="glyphicon glyphicon-plus"></i>
                                 </a>
                             </h2>
@@ -219,7 +277,7 @@
                         <div class="portfolio row">
                             <div class="col-md-12">
                                 <div class="portfolio-data">
-                                    <a href="">[Certificate Title]</a>
+                                    <a>[Certificate Title]</a>
                                 </div>
                             </div>
                         </div>
@@ -229,7 +287,7 @@
                         <div class="skills-title">
                             <h2>
                                 Languages
-                                <a title="Add" class="pull-right add green-color" href="">
+                                <a title="Add" class="pull-right add green-color">
                                     <i class="glyphicon glyphicon-plus"></i>
                                 </a>
                             </h2>
@@ -258,7 +316,7 @@
                         <div class="skills-title">
                             <h2>
                                 Education
-                                <a title="Add" class="pull-right add green-color" href="">
+                                <a title="Add" class="pull-right add green-color">
                                     <i class="glyphicon glyphicon-plus"></i>
                                 </a>
                             </h2>
@@ -290,6 +348,12 @@
                     $elementBeforeParent = $parentOfThis.prev(),
                     $currentDataWidth = $this.attr('data-width');
                 $elementBeforeParent.val($currentDataWidth);
+            });
+
+            $('.remove').on('click', function () {
+                var $this = $(this),
+                    $parentOfThis = $this.parent();
+                $parentOfThis.remove();
             });
         });
     </script></div>
