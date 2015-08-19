@@ -899,9 +899,11 @@ div#wrapper div#main-content div.about div.main-body div#skills div.skills {
   padding: 15px 10px;
 }
 div#wrapper div#main-content div.about div.main-body div#skills div.skills small {
+  display: block;
+  margin-bottom: 10px;
+  color: #636467;
   font-size: 1.125em;
   font-weight: bold;
-  color: #636467;
   text-align: left;
 }
 div#wrapper div#main-content div.about div.main-body div#skills div.skills div.professional,

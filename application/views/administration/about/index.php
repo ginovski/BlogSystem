@@ -13,12 +13,7 @@
 
                     <div id="skills">
                         <div class="skills-title">
-                            <h2>
-                                Skills
-                                <a title="Add" class="pull-right add green-color">
-                                    <i class="glyphicon glyphicon-plus"></i>
-                                </a>
-                            </h2>
+                            <h2>Skills</h2>
                         </div>
 
                         <div class="skills row">
@@ -246,6 +241,10 @@
 
                         <div class="portfolio row">
                             <div class="col-md-12">
+                                <a title="Remove" class="pull-right add remove green-color absolute">
+                                    <i class="glyphicon glyphicon-remove"></i>
+                                </a>
+
                                 <div class="portfolio-data">
                                     <a>[Project Title]</a>
                                     <small>(date)</small>
@@ -276,6 +275,10 @@
 
                         <div class="portfolio row">
                             <div class="col-md-12">
+                                <a title="Remove" class="pull-right add remove green-color absolute">
+                                    <i class="glyphicon glyphicon-remove"></i>
+                                </a>
+
                                 <div class="portfolio-data">
                                     <a>[Certificate Title]</a>
                                 </div>
@@ -297,14 +300,26 @@
                             <div class="col-md-12">
                                 <div class="portfolio-data">
                                     <div class="col-md-4 col-sm-4">
+                                        <a title="Remove" class="pull-right add remove green-color absolute">
+                                            <i class="glyphicon glyphicon-remove"></i>
+                                        </a>
+
                                         <strong>[English]</strong>
                                     </div>
 
                                     <div class="col-md-4 col-sm-4">
+                                        <a title="Remove" class="pull-right add remove green-color absolute">
+                                            <i class="glyphicon glyphicon-remove"></i>
+                                        </a>
+
                                         <strong>[Bulgarisch]</strong>
                                     </div>
 
                                     <div class="col-md-4 col-sm-4">
+                                        <a title="Remove" class="pull-right add remove green-color absolute">
+                                            <i class="glyphicon glyphicon-remove"></i>
+                                        </a>
+
                                         <strong>[German]</strong>
                                     </div>
                                 </div>
@@ -324,6 +339,10 @@
 
                         <div class="portfolio row">
                             <div class="col-md-12">
+                                <a title="Remove" class="pull-right add remove green-color absolute">
+                                    <i class="glyphicon glyphicon-remove"></i>
+                                </a>
+
                                 <div class="portfolio-data">
                                     <strong>[Education Centre Title]</strong>
                                     <small>([location])</small>
