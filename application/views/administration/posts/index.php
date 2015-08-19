@@ -16,7 +16,7 @@
                             <a href="">[Post Title]</a>
                         </div>
                         <div class="controls">
-                            <a title="Edit" href=""><i class="glyphicon glyphicon-pencil"></i></a>
+                            <a title="Edit" href="<?php echo base_url().'administration/posts/edit'?>"><i class="glyphicon glyphicon-pencil"></i></a>
                             <a title="Remove" href=""><i class="glyphicon glyphicon-remove"></i></a>
                         </div>
                     </li>
@@ -25,7 +25,7 @@
                             <a href="">[Post Title]</a>
                         </div>
                         <div class="controls">
-                            <a title="Edit" href=""><i class="glyphicon glyphicon-pencil"></i></a>
+                            <a title="Edit" href="<?php echo base_url().'administration/posts/edit'?>"><i class="glyphicon glyphicon-pencil"></i></a>
                             <a title="Remove" href=""><i class="glyphicon glyphicon-remove"></i></a>
                         </div>
                     </li>
@@ -34,7 +34,7 @@
                             <a href="">[Post Title]</a>
                         </div>
                         <div class="controls">
-                            <a title="Edit" href=""><i class="glyphicon glyphicon-pencil"></i></a>
+                            <a title="Edit" href="<?php echo base_url().'administration/posts/edit'?>"><i class="glyphicon glyphicon-pencil"></i></a>
                             <a title="Remove" href=""><i class="glyphicon glyphicon-remove"></i></a>
                         </div>
                     </li>
@@ -43,7 +43,7 @@
                             <a href="">[Post Title]</a>
                         </div>
                         <div class="controls">
-                            <a title="Edit" href=""><i class="glyphicon glyphicon-pencil"></i></a>
+                            <a title="Edit" href="<?php echo base_url().'administration/posts/edit'?>"><i class="glyphicon glyphicon-pencil"></i></a>
                             <a title="Remove" href=""><i class="glyphicon glyphicon-remove"></i></a>
                         </div>
                     </li>
@@ -52,7 +52,7 @@
                             <a href="">[Post Title]</a>
                         </div>
                         <div class="controls">
-                            <a title="Edit" href=""><i class="glyphicon glyphicon-pencil"></i></a>
+                            <a title="Edit" href="<?php echo base_url().'administration/posts/edit'?>"><i class="glyphicon glyphicon-pencil"></i></a>
                             <a title="Remove" href=""><i class="glyphicon glyphicon-remove"></i></a>
                         </div>
                     </li>
