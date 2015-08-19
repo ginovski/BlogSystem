@@ -38,6 +38,7 @@ Description: AdminPanel Style-Layout
 @sky-blue-color: #6DD2DC;
 
 @white-smoke-color: #ECECEC;
+@light-green-color: #54c0b0;
 
 @light-post-color: #c1bfbf;
 @dark-post-color: #636467;
@@ -125,6 +126,37 @@ a.add {
   &:active {
     .rotate(180deg);
   }
+}
+
+input.edit-input {
+  width: 100%;
+  display: block;
+  background-color: transparent;
+  border: 0;
+
+  .fast-transition();
+
+  &:active,
+  &:focus {
+    outline: 0;
+  }
+}
+
+input.full-name {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: @light-green-color;
+}
+
+input.small {
+  font-size: 85%;
+}
+
+textarea.edit-input {
+  width: 100%;
+  max-width: 100%;
+  height: 150px;
+  border: 0;
 }
 
 /* HEADER
