@@ -34,7 +34,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-xs-12">
-                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number" min="1" max="100"/>
+                                        <input class="edit-input small" name="skill-percentage" value="Organisation" type="number" min="1" max="100"/>
                                         <div class="progress-bar hidden hidden" data-toggle="tooltip" title="" data-original-title="80%">
                                             <div class="green-bar" data-width="80" style="width: 80%;"></div>
                                         </div>
@@ -50,7 +50,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-xs-12">
-                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number" min="1" max="100"/>
+                                        <input class="edit-input small" name="skill-percentage" value="Organisation" type="number" min="1" max="100"/>
                                         <div class="progress-bar hidden" data-toggle="tooltip" title="" data-original-title="80%">
                                             <div class="green-bar" data-width="80" style="width: 80%;"></div>
                                         </div>
@@ -66,7 +66,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-xs-12">
-                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number" min="1" max="100"/>
+                                        <input class="edit-input small" name="skill-percentage" value="Organisation" type="number" min="1" max="100"/>
                                         <div class="progress-bar hidden" data-toggle="tooltip" title="" data-original-title="80%">
                                             <div class="green-bar" data-width="80" style="width: 80%;"></div>
                                         </div>
@@ -82,7 +82,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-xs-12">
-                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number" min="1" max="100"/>
+                                        <input class="edit-input small" name="skill-percentage" value="Organisation" type="number" min="1" max="100"/>
                                         <div class="progress-bar hidden" data-toggle="tooltip" title="" data-original-title="80%">
                                             <div class="green-bar" data-width="80" style="width: 80%;"></div>
                                         </div>
@@ -98,7 +98,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-xs-12">
-                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number" min="1" max="100"/>
+                                        <input class="edit-input small" name="skill-percentage" value="Organisation" type="number" min="1" max="100"/>
                                         <div class="progress-bar hidden" data-toggle="tooltip" title="" data-original-title="70%">
                                             <div class="green-bar" data-width="70" style="width: 70%;"></div>
                                         </div>
@@ -114,7 +114,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-xs-12">
-                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number" min="1" max="100"/>
+                                        <input class="edit-input small" name="skill-percentage" value="Organisation" type="number" min="1" max="100"/>
                                         <div class="progress-bar hidden" data-toggle="tooltip" title="" data-original-title="50%">
                                             <div class="green-bar" data-width="50" style="width: 50%;"></div>
                                         </div>
@@ -130,7 +130,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-xs-12">
-                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number" min="1" max="100"/>
+                                        <input class="edit-input small" name="skill-percentage" value="Organisation" type="number" min="1" max="100"/>
                                         <div class="progress-bar hidden" data-toggle="tooltip" title="" data-original-title="40%">
                                             <div class="green-bar" data-width="40" style="width: 40%;"></div>
                                         </div>
@@ -155,7 +155,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-xs-12">
-                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number" min="1" max="100"/>
+                                        <input class="edit-input small" name="skill-percentage" value="Organisation" type="number" min="1" max="100"/>
                                         <div class="progress-bar hidden" data-toggle="tooltip" title="" data-original-title="80%">
                                             <div class="green-bar" data-width="80" style="width: 80%;"></div>
                                         </div>
@@ -171,7 +171,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-xs-12">
-                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number" min="1" max="100"/>
+                                        <input class="edit-input small" name="skill-percentage" value="Organisation" type="number" min="1" max="100"/>
                                         <div class="progress-bar hidden" data-toggle="tooltip" title="" data-original-title="70%">
                                             <div class="green-bar" data-width="70" style="width: 70%;"></div>
                                         </div>
@@ -187,7 +187,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-xs-12">
-                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number" min="1" max="100"/>
+                                        <input class="edit-input small" name="skill-percentage" value="Organisation" type="number" min="1" max="100"/>
                                         <div class="progress-bar hidden" data-toggle="tooltip" title="" data-original-title="60%">
                                             <div class="green-bar" data-width="60" style="width: 60%;"></div>
                                         </div>
@@ -203,7 +203,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-xs-12">
-                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number" min="1" max="100"/>
+                                        <input class="edit-input small" name="skill-percentage" value="Organisation" type="number" min="1" max="100"/>
                                         <div class="progress-bar hidden" data-toggle="tooltip" title="" data-original-title="60%">
                                             <div class="green-bar" data-width="60" style="width: 60%;"></div>
                                         </div>
@@ -219,7 +219,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-xs-12">
-                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number" min="1" max="100"/>
+                                        <input class="edit-input small" name="skill-percentage" value="Organisation" type="number" min="1" max="100"/>
                                         <div class="progress-bar hidden" data-toggle="tooltip" title="" data-original-title="50%">
                                             <div class="green-bar" data-width="50" style="width: 50%;"></div>
                                         </div>
@@ -251,7 +251,7 @@
 
                                     <div>
                                         <small>Description: </small>
-                                        <textarea class="edit-input textarea" name="project-description" type="text">[description]</textarea>
+                                        <textarea class="edit-input textarea" name="project-description">[description]</textarea>
                                     </div>
 
                                     <div>
@@ -348,6 +348,10 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+
+                    <div class="read-more text-center">
+                        <input type="submit" value="Save"/>
                     </div>
                 </form>
             </div>
