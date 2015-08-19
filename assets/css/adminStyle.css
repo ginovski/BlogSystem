@@ -121,6 +121,15 @@ input.full-name {
 input.small {
   font-size: 85%;
 }
+input.strong {
+  font-weight: bold;
+}
+input.link {
+  font-size: 1.125em;
+  font-weight: bold;
+  text-align: left;
+  color: #6dd2dc;
+}
 textarea.edit-input {
   width: 100%;
   max-width: 100%;

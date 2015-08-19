@@ -34,7 +34,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-xs-12">
-                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number"/>
+                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number" min="1" max="100"/>
                                         <div class="progress-bar hidden hidden" data-toggle="tooltip" title="" data-original-title="80%">
                                             <div class="green-bar" data-width="80" style="width: 80%;"></div>
                                         </div>
@@ -50,7 +50,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-xs-12">
-                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number"/>
+                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number" min="1" max="100"/>
                                         <div class="progress-bar hidden" data-toggle="tooltip" title="" data-original-title="80%">
                                             <div class="green-bar" data-width="80" style="width: 80%;"></div>
                                         </div>
@@ -66,7 +66,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-xs-12">
-                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number"/>
+                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number" min="1" max="100"/>
                                         <div class="progress-bar hidden" data-toggle="tooltip" title="" data-original-title="80%">
                                             <div class="green-bar" data-width="80" style="width: 80%;"></div>
                                         </div>
@@ -82,7 +82,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-xs-12">
-                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number"/>
+                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number" min="1" max="100"/>
                                         <div class="progress-bar hidden" data-toggle="tooltip" title="" data-original-title="80%">
                                             <div class="green-bar" data-width="80" style="width: 80%;"></div>
                                         </div>
@@ -98,7 +98,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-xs-12">
-                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number"/>
+                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number" min="1" max="100"/>
                                         <div class="progress-bar hidden" data-toggle="tooltip" title="" data-original-title="70%">
                                             <div class="green-bar" data-width="70" style="width: 70%;"></div>
                                         </div>
@@ -114,7 +114,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-xs-12">
-                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number"/>
+                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number" min="1" max="100"/>
                                         <div class="progress-bar hidden" data-toggle="tooltip" title="" data-original-title="50%">
                                             <div class="green-bar" data-width="50" style="width: 50%;"></div>
                                         </div>
@@ -130,14 +130,14 @@
                                     </div>
 
                                     <div class="col-sm-4 col-xs-12">
-                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number"/>
+                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number" min="1" max="100"/>
                                         <div class="progress-bar hidden" data-toggle="tooltip" title="" data-original-title="40%">
                                             <div class="green-bar" data-width="40" style="width: 40%;"></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-    
+
                             <div class="col-sm-6 col-xs-12 personal">
                                 <small>
                                     Personal
@@ -155,7 +155,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-xs-12">
-                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number"/>
+                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number" min="1" max="100"/>
                                         <div class="progress-bar hidden" data-toggle="tooltip" title="" data-original-title="80%">
                                             <div class="green-bar" data-width="80" style="width: 80%;"></div>
                                         </div>
@@ -171,7 +171,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-xs-12">
-                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number"/>
+                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number" min="1" max="100"/>
                                         <div class="progress-bar hidden" data-toggle="tooltip" title="" data-original-title="70%">
                                             <div class="green-bar" data-width="70" style="width: 70%;"></div>
                                         </div>
@@ -187,7 +187,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-xs-12">
-                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number"/>
+                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number" min="1" max="100"/>
                                         <div class="progress-bar hidden" data-toggle="tooltip" title="" data-original-title="60%">
                                             <div class="green-bar" data-width="60" style="width: 60%;"></div>
                                         </div>
@@ -203,7 +203,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-xs-12">
-                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number"/>
+                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number" min="1" max="100"/>
                                         <div class="progress-bar hidden" data-toggle="tooltip" title="" data-original-title="60%">
                                             <div class="green-bar" data-width="60" style="width: 60%;"></div>
                                         </div>
@@ -219,7 +219,7 @@
                                     </div>
 
                                     <div class="col-sm-4 col-xs-12">
-                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number"/>
+                                        <input class="edit-input small" name="skill-name" value="Organisation" type="number" min="1" max="100"/>
                                         <div class="progress-bar hidden" data-toggle="tooltip" title="" data-original-title="50%">
                                             <div class="green-bar" data-width="50" style="width: 50%;"></div>
                                         </div>
@@ -246,17 +246,17 @@
                                 </a>
 
                                 <div class="portfolio-data">
-                                    <a>[Project Title]</a>
-                                    <small>(date)</small>
+                                    <input class="edit-input link" name="project-title" value="[Project Title]" type="text"/>
+                                    <input class="edit-input small" name="project-date" value="(date)" type="date"/>
 
                                     <div>
                                         <small>Description: </small>
-                                        <span>[description]</span>
+                                        <textarea class="edit-input textarea" name="project-description" type="text">[description]</textarea>
                                     </div>
 
                                     <div>
                                         <small>Technologies: </small>
-                                        <span>[technology], [technology]</span>
+                                        <input class="edit-input small" name="project-technologies" value="[technology], [technology]" type="text"/>
                                     </div>
                                 </div>
                             </div>
@@ -280,7 +280,7 @@
                                 </a>
 
                                 <div class="portfolio-data">
-                                    <a>[Certificate Title]</a>
+                                    <input class="edit-input link" name="certificate-title" value="[Certificate Title]" type="text"/>
                                 </div>
                             </div>
                         </div>
@@ -297,31 +297,29 @@
                         </div>
 
                         <div class="portfolio row">
-                            <div class="col-md-12">
-                                <div class="portfolio-data">
-                                    <div class="col-md-4 col-sm-4">
-                                        <a title="Remove" class="pull-right add remove green-color absolute">
-                                            <i class="glyphicon glyphicon-remove"></i>
-                                        </a>
+                            <div class="col-md-12 portfolio-data">
+                                <div class="col-md-4 col-sm-4">
+                                    <a title="Remove" class="pull-right add remove green-color absolute">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
 
-                                        <strong>[English]</strong>
-                                    </div>
+                                    <input class="edit-input strong" name="language-title" value="[English]" type="text"/>
+                                </div>
 
-                                    <div class="col-md-4 col-sm-4">
-                                        <a title="Remove" class="pull-right add remove green-color absolute">
-                                            <i class="glyphicon glyphicon-remove"></i>
-                                        </a>
+                                <div class="col-md-4 col-sm-4">
+                                    <a title="Remove" class="pull-right add remove green-color absolute">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
 
-                                        <strong>[Bulgarisch]</strong>
-                                    </div>
+                                    <input class="edit-input strong" name="language-title" value="[Bulgarisch]" type="text"/>
+                                </div>
 
-                                    <div class="col-md-4 col-sm-4">
-                                        <a title="Remove" class="pull-right add remove green-color absolute">
-                                            <i class="glyphicon glyphicon-remove"></i>
-                                        </a>
+                                <div class="col-md-4 col-sm-4">
+                                    <a title="Remove" class="pull-right add remove green-color absolute">
+                                        <i class="glyphicon glyphicon-remove"></i>
+                                    </a>
 
-                                        <strong>[German]</strong>
-                                    </div>
+                                    <input class="edit-input strong" name="language-title" value="[German]" type="text"/>
                                 </div>
                             </div>
                         </div>
@@ -344,10 +342,9 @@
                                 </a>
 
                                 <div class="portfolio-data">
-                                    <strong>[Education Centre Title]</strong>
-                                    <small>([location])</small>
-                                    <br>
-                                    <small>[date]</small>
+                                    <input class="edit-input strong" name="education-centre" value="[Education Centre Title]" type="text"/>
+                                    <input class="edit-input small" name="education-centre-location" value="([location])" type="text"/>
+                                    <input class="edit-input small" name="education-date" value="[date]" type="date"/>
                                 </div>
                             </div>
                         </div>
