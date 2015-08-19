@@ -25,10 +25,10 @@ $(document).ready(function () {
             .attr('aria-haspopup', 'true')
             .attr('aria-expanded', 'true');
 
-        if ($categorySelect.attr('value')) {
-            var $optionWithInitialValue = $('option[value="' + $categorySelect.attr('value') + '"]');
-            $toggleButton.html($optionWithInitialValue.html()    + ' ')
-                .attr('data-value', $categorySelect.attr('value'));
+        if ($('#category option:selected')) {
+            var $selectedInput = $('#category option:selected');
+            $toggleButton.html($selectedInput.html() + ' ')
+                .attr('data-value', $selectedInput.attr('value'));
         }
         else {
             $toggleButton.html('Select a category ');

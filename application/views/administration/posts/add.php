@@ -47,6 +47,7 @@
 
                     <div class="category">
                         <select name="category" id="category">
+                            <option value="Uncategorized">Uncategorized</option>
                             <option value="UI & UX">UI & UX</option>
                             <option value="Graphic Design">Graphic Design</option>
                             <option value="Illustration">Illustration</option>

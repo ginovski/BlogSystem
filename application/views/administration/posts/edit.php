@@ -46,12 +46,13 @@
                     </div>
 
                     <div class="category">
-                        <select name="category" id="category" value="Illustration">
+                        <select name="category" id="category">
+                            <option value="Uncategorized">Uncategorized</option>
                             <option value="UI & UX">UI & UX</option>
                             <option value="Graphic Design">Graphic Design</option>
                             <option value="Illustration">Illustration</option>
                             <option value="Web Design">Web Design</option>
-                            <option value="General">General</option>
+                            <option selected="selected" value="General">General</option>
                         </select>
                     </div>
 
